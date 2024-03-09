@@ -1367,7 +1367,7 @@ footer #footerInner {
 /* ==================
       모바일 mobile
   ================== */
-@media (max-width:760px) {
+@media (max-width:720px) {
 
   .cursor {
     display: none;
