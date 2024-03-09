@@ -14,10 +14,10 @@
   cursor: url("../images/Ellipse2.png") 5 5, auto;
 }
 
-html, body {
+/* html, body {
   max-width: 100%;
   overflow-x: hidden;
-  }
+  } */
 
 .blind {
   position: absolute;
@@ -1367,7 +1367,7 @@ footer #footerInner {
 /* ==================
       모바일 mobile
   ================== */
-@media (max-width:720px) {
+@media (max-width:760px) {
 
   .cursor {
     display: none;
@@ -1388,7 +1388,7 @@ footer #footerInner {
   .maintitle .outText {
     /* font-size: 8em; */
     font-size: 6em;
-    color: aqua; /* 나중에 빼야됨 */
+    color: red; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
