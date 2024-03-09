@@ -1369,10 +1369,6 @@ footer #footerInner {
   ================== */
 @media (max-width:760px) {
 
-  html {
-    min-width: 760px;
-  }
-
   .cursor {
     display: none;
   }
@@ -1391,15 +1387,15 @@ footer #footerInner {
 
   .maintitle .outText {
     /* font-size: 8em; */
-    font-size: 4em;
-    color: blue; /* 나중에 빼야됨 */
+    font-size: 6em;
+    color: red; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
   .lineani .underLine {
-    width: 180px;
+    width: 300px;
     height: 2px;
-    margin-left: 5%;
+    margin-left: 4.2%;
   }
 
   /* rotate ani */
@@ -1413,9 +1409,8 @@ footer #footerInner {
 
 /* About me start */
 .Tline_1 {
-  width: 340px;
-  /* margin: 0 0 0 55px; */
-  margin: 0 0 0 15px;
+  width: 540px;
+  margin: 0 0 0 55px; /* 추가 */
 }
 
 #About {
@@ -1423,10 +1418,8 @@ footer #footerInner {
 }
 
 #About .aboutInner {
+  /* width: 90%; */
   width: 760px;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
 }
 
 #About h4 {
@@ -1444,7 +1437,7 @@ footer #footerInner {
 }
 
 #About .about_me img {
-  margin: -110px 0 0 60px;
+  margin: 10px 0 0 60px;
   width: 150px;
   height: 150px;
 }
@@ -1456,6 +1449,8 @@ footer #footerInner {
 }
 
 #About .about_me .tools {
+  /* margin-top: -30px;
+  margin-left: 360px; */
   font-size: 0.9em;
   margin-top: -90px;
   margin-left: 260px;
