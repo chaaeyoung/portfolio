@@ -1381,11 +1381,11 @@ footer #footerInner {
 
   #mainInner {
     height: 880px;
-    /* min-width: 760px; */
   }
   
   .Mtxt {
-    width: 760px;
+    /* width: 760px; */
+    width: 100%;
     height: 880px;
   }
 
@@ -1408,7 +1408,8 @@ footer #footerInner {
   #mainInner .Mtxt h1 {
   width: 163px;
   height: 163px;
-  margin-left: 65%;
+  /* margin-left: 65%; */
+  margin-left: 50%;
   margin-top: 20%;
 }
 
@@ -1416,7 +1417,8 @@ footer #footerInner {
     text-align: right;
     font-size: 1.1em;
     font-weight: 500;
-    padding: 30px 90px 0 0;
+    /* padding: 30px 90px 0 0; */
+    padding: 30px 320px 0 0;
     letter-spacing: -1px;
   }
 /* main END */
@@ -1424,24 +1426,26 @@ footer #footerInner {
 /* About me start */
 .Tline_1 {
   width: 540px;
-  margin: 0 0 0 35px; /* 추가 */
+  margin: 0 0 0 55px; /* 추가 */
 }
 
 #About {
-  width: 760px;
-  /* min-width: 760px; */
+  /* width: 760px; */
+  width: 100%;
+  /* border: 1px solid red; */
 }
 
 #About h4 {
-  margin: 0 0 0 40px;
+  margin: 0 0 0 60px;
 }
 
 #About .About_Mtext p {
-  margin: 10px 0 0 40px;
+  margin: 10px 0 0 60px;
 }
 
 #About .aboutInner {
-  width: 760px;
+  /* width: 760px; */
+  width: 100%;
   height: 780px;
 }
 
@@ -1500,8 +1504,10 @@ footer #footerInner {
 
 /* work list start */
 .work_list {
-  width: 760px;
-  /* min-width: 760px; */
+  /* width: 760px; */
+  width: 100%;
+  /* width: 990px;
+  min-width: 990px; - 타블렛 버전에 잇음 */
 }
 
 .Wlist_1,
@@ -1521,6 +1527,7 @@ footer #footerInner {
 /* 목차 */
 .Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
   margin: 40px 0 0 50px;
+
 }
 /* 웹 종류 설명 */
 .Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
@@ -1616,7 +1623,7 @@ footer #footerInner {
     width: 540px;
     margin: 0 0 0 35px;
     }
-    
+
   .Wlist_Rmenu {
     margin-top: 400px;
     height: 1040px;
@@ -1624,11 +1631,22 @@ footer #footerInner {
   
   .Wlist_Rmenu .Wlist_RmenuInner {
     width: 760px;
-    /* min-width: 760px; */
+    min-width: 760px;
+    /* width: 100%; */
+  }
+
+  .Wlist_RmenuInner {
+    width: 90%;
   }
   
     .Wlist_R {
       margin-top: -30px;
+      max-width: 300px;
+      max-height: 350px;
+    }
+
+    #Wlist_B {
+      margin-top: 450px;
     }
   
     .Wlist_Rmenu span {
@@ -1651,6 +1669,8 @@ footer #footerInner {
     .Wlist_R img {
       object-fit: cover;
       object-position: -220px 0;
+      width: 300px;
+      height: 350px;
     }
 
     .Wlist_R h6 {
@@ -1675,13 +1695,13 @@ footer #footerInner {
         footer
 =====================*/
 footer {
+  width: 100%;
   height: 530px;
-  /* min-width: 760px; */
 }
 
 footer #footerInner {
-  /* min-width: 760px; */
-  width: 760px;
+  /* width: 760px; */
+  width: 100%;
   height: 530px;
 }
 
@@ -1708,8 +1728,9 @@ footer #footerInner {
 }
 
 #footerInner .Rcopylight {
-  margin: 50px 50px 0 0;
-  font-size: 1.4em;
+  /* margin: 50px 50px 0 0; */
+  margin: 50px 280px 0 0;
+  font-size: 1.3em;
 }
 
 }
