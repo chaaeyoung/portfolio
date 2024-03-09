@@ -1038,7 +1038,7 @@ footer #footerInner {
 
   #mainInner {
     height: 880px;
-    min-width: 990px;
+    /* min-width: 990px; */
   }
   
   .Mtxt {
@@ -1081,7 +1081,7 @@ footer #footerInner {
 
 #About {
   width: 990px;
-  min-width: 990px;
+  /* min-width: 990px; */
 }
 
 #About .aboutInner {
@@ -1166,7 +1166,7 @@ footer #footerInner {
 /* work list start */
 .work_list {
   width: 990px;
-  min-width: 990px;
+  /* min-width: 990px; */
 }
 
 .Wlist_1,
@@ -1277,7 +1277,7 @@ footer #footerInner {
 
 .Wlist_Rmenu .Wlist_RmenuInner {
   width: 990px;
-  min-width: 990px;
+  /* min-width: 990px; */
 }
 
   .Wlist_RmenuInner {
@@ -1331,11 +1331,11 @@ footer #footerInner {
 =====================*/
 footer {
   height: 560px;
-  min-width: 990px;
+  /* min-width: 990px; */
 }
 
 footer #footerInner {
-  min-width: 990px;
+  /* min-width: 990px; */
   width: 990px;
   height: 560px;
 }
@@ -1395,7 +1395,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 8em;
-    color: red;
+    color: red; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
