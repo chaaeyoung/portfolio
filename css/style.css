@@ -1376,25 +1376,26 @@ footer #footerInner {
   #mainInner {
     height: 880px;
   }
-  
-  .Mtxt {
-    /* width: 760px; */
-    width: 100%;
-    height: 880px;
-  }
 
   #toggle {
     margin-right: -5px;
   }
+  
+  .Mtxt {
+    width: 760px;
+    /* width: 100%; */
+    height: 880px;
+  }
 
   .maintitle .outText {
-    font-size: 8em;
-    color: blue; /* 나중에 빼야됨 */
+    /* font-size: 8em; */
+    font-size: 6em;
+    color: red; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
   .lineani .underLine {
-    width: 450px;
+    width: 300px;
     height: 2px;
     margin-left: 4.2%;
   }
@@ -1404,7 +1405,6 @@ footer #footerInner {
   width: 163px;
   height: 163px;
   margin-left: 65%;
-  /* margin-left: 50%; */
   margin-top: 20%;
 }
 
@@ -1413,7 +1413,6 @@ footer #footerInner {
     font-size: 1.1em;
     font-weight: 500;
     padding: 30px 90px 0 0;
-    /* padding: 30px 320px 0 0; */
     letter-spacing: -1px;
   }
 /* main END */
@@ -1425,8 +1424,8 @@ footer #footerInner {
 }
 
 #About {
-  /* width: 760px; */
-  width: 100%;
+  width: 760px;
+  /* width: 100%; */
 }
 
 #About h4 {
@@ -1438,13 +1437,14 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  /* width: 760px; */
-  width: 100%;
+  width: 760px;
+  /* width: 100%; */
   height: 780px;
 }
 
 #About .about_me {
-  width: 990px;
+  /* width: 990px; */
+  width: 760px;
 }
 
 #About .about_me img {
@@ -1498,8 +1498,8 @@ footer #footerInner {
 
 /* work list start */
 .work_list {
-  /* width: 760px; */
-  width: 100%;
+  width: 760px;
+  /* width: 100%; */
 }
 
 .Wlist_1,
@@ -1622,8 +1622,8 @@ footer #footerInner {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    /* width: 760px; */
-    width: 100%;
+    width: 760px;
+    /* width: 100%; */
   }
 
   .Wlist_RmenuInner {
@@ -1691,14 +1691,14 @@ footer {
 }
 
 footer #footerInner {
-  /* width: 760px; */
-  width: 100%;
+  width: 760px;
+  /* width: 100%; */
   height: 530px;
 }
 
 .contact .contacttitle .Fintext {
   margin-left: 30px;
-  font-size: 6em;
+  font-size: 5em;
 }
 
 .contact .contacttitle .Fintext:last-child {
