@@ -1367,7 +1367,7 @@ footer #footerInner {
 /* ==================
       모바일 mobile
   ================== */
-@media (max-width:780px) {
+@media (max-width:760px) {
 
   .cursor {
     display: none;
@@ -1418,15 +1418,20 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  width: 90%;
+  width: 760px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
 }
 
 #About h4 {
   margin: 0 0 0 60px;
+  font-size: 35px;
 }
 
 #About .About_Mtext p {
   margin: 10px 0 0 60px;
+  font-size: 0.8em;
 }
 
 #About .about_me {
@@ -1434,51 +1439,54 @@ footer #footerInner {
 }
 
 #About .about_me img {
-  margin: -70px 0 0 60px;
-  width: 250px;
-  height: 250px;
+  margin: -110px 0 0 60px;
+  width: 150px;
+  height: 150px;
 }
 
 #About .about_me a {
-  margin: -60px 0 0 360px;
-  font-size: 1.3em;
+  /* margin: -60px 0 0 360px; */
+  margin: -90px 0 0 260px;
+  font-size: 1.2em;
 }
 
 #About .about_me .tools {
-  margin-top: -30px;
-  margin-left: 360px;
+  font-size: 0.9em;
+  margin-top: -90px;
+  margin-left: 260px;
 }
 
 #About .about_me .tools ul li img {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
 
 #About .about_me .skill {
-  margin-top: 95px;
-  margin-left: 360px;
+  font-size: 0.9em;
+  margin-top: 35px;
+  margin-left: 257px;
 }
 
 #About .about_me .skill ul li img {
-  height: 25px;
-  width: 25px;
+  height: 20px;
+  width: 20px;
 }
 
 #About .about_me .meT {
-  margin-top: 170px;
-  right: 370px;
+  margin-top: 110px;
+  right: 270px;
 }
 
 #About .about_me .meT p {
-  font-size: 1.3em;
-}
-
-#About .about_me .meT ul li>p {
   font-size: 1.1em;
 }
 
+#About .about_me .meT ul li>p {
+  font-size: 1em;
+}
+
 #About .about_me .meT ul li>small {
-  font-size: 0.9em;
+  font-size: 0.8em;
 }
 /* About me END */
 
