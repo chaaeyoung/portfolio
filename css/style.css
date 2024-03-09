@@ -1038,7 +1038,6 @@ footer #footerInner {
 
   #mainInner {
     height: 880px;
-    /* min-width: 990px; */
   }
   
   .Mtxt {
@@ -1081,7 +1080,6 @@ footer #footerInner {
 
 #About {
   width: 990px;
-  /* min-width: 990px; */
 }
 
 #About .aboutInner {
@@ -1166,7 +1164,6 @@ footer #footerInner {
 /* work list start */
 .work_list {
   width: 990px;
-  /* min-width: 990px; */
 }
 
 .Wlist_1,
@@ -1277,7 +1274,6 @@ footer #footerInner {
 
 .Wlist_Rmenu .Wlist_RmenuInner {
   width: 990px;
-  /* min-width: 990px; */
 }
 
   .Wlist_RmenuInner {
@@ -1331,11 +1327,9 @@ footer #footerInner {
 =====================*/
 footer {
   height: 560px;
-  /* min-width: 990px; */
 }
 
 footer #footerInner {
-  /* min-width: 990px; */
   width: 990px;
   height: 560px;
 }
@@ -1395,7 +1389,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 8em;
-    color: red; /* 나중에 빼야됨 */
+    color: blue; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
@@ -1409,8 +1403,8 @@ footer #footerInner {
   #mainInner .Mtxt h1 {
   width: 163px;
   height: 163px;
-  /* margin-left: 65%; */
-  margin-left: 50%;
+  margin-left: 65%;
+  /* margin-left: 50%; */
   margin-top: 20%;
 }
 
@@ -1418,8 +1412,8 @@ footer #footerInner {
     text-align: right;
     font-size: 1.1em;
     font-weight: 500;
-    /* padding: 30px 90px 0 0; */
-    padding: 30px 320px 0 0;
+    padding: 30px 90px 0 0;
+    /* padding: 30px 320px 0 0; */
     letter-spacing: -1px;
   }
 /* main END */
@@ -1433,7 +1427,6 @@ footer #footerInner {
 #About {
   /* width: 760px; */
   width: 100%;
-  /* border: 1px solid red; */
 }
 
 #About h4 {
@@ -1507,8 +1500,6 @@ footer #footerInner {
 .work_list {
   /* width: 760px; */
   width: 100%;
-  /* width: 990px;
-  min-width: 990px; - 타블렛 버전에 잇음 */
 }
 
 .Wlist_1,
@@ -1631,9 +1622,8 @@ footer #footerInner {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 760px;
-    min-width: 760px;
-    /* width: 100%; */
+    /* width: 760px; */
+    width: 100%;
   }
 
   .Wlist_RmenuInner {
@@ -1729,8 +1719,8 @@ footer #footerInner {
 }
 
 #footerInner .Rcopylight {
-  /* margin: 50px 50px 0 0; */
-  margin: 50px 280px 0 0;
+  margin: 50px 50px 0 0;
+  /* margin: 50px 280px 0 0; */
   font-size: 1.3em;
 }
 
