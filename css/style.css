@@ -1369,6 +1369,10 @@ footer #footerInner {
   ================== */
 @media (max-width:760px) {
 
+  html {
+    min-width: 760px;
+  }
+
   .cursor {
     display: none;
   }
@@ -1387,15 +1391,15 @@ footer #footerInner {
 
   .maintitle .outText {
     /* font-size: 8em; */
-    font-size: 6em;
-    color: red; /* 나중에 빼야됨 */
+    font-size: 4em;
+    color: blue; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
   .lineani .underLine {
-    width: 300px;
+    width: 180px;
     height: 2px;
-    margin-left: 4.2%;
+    margin-left: 5%;
   }
 
   /* rotate ani */
@@ -1409,8 +1413,9 @@ footer #footerInner {
 
 /* About me start */
 .Tline_1 {
-  width: 540px;
-  margin: 0 0 0 55px; /* 추가 */
+  width: 340px;
+  /* margin: 0 0 0 55px; */
+  margin: 0 0 0 15px;
 }
 
 #About {
