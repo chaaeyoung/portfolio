@@ -33,7 +33,6 @@ html, body {
   height: 100%;
   width: 100%;
   background-color: #ebebe8;
-  /* display: flex; */
 }
 
 a {
@@ -827,8 +826,8 @@ ul, li {
   position: relative;
   height: 55px;
   width: 55px;
-  top: 0%;
-  left: 0%;
+  top: 0;
+  left: 0;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 50%;
   text-align: center;
@@ -1042,6 +1041,7 @@ footer #footerInner {
   
   .Mtxt {
     width: 990px;
+    /* width: 990px; */
     height: 780px;
   }
 
@@ -1382,28 +1382,29 @@ footer #footerInner {
   }
   
   .Mtxt {
-    width: 80%;
+    /* width: 100%; */
+    width: 760px;
   }
 
   .maintitle .outText {
     /* font-size: 8em; */
     font-size: 6em;
-    color: blue; /* 나중에 빼야됨 */
-    margin-left: 0;
+    color: red; /* 나중에 빼야됨 */
+    margin-left: 30px;
   }
 
   .lineani .underLine {
-    width: 320px;
+    width: 300px;
     height: 2px;
-    margin-left: -2.8%;
+    margin-left: 30px;
   }
 
   /* rotate ani */
   #mainInner .Mtxt h1 {
   width: 163px;
   height: 163px;
-  margin-left: 65%;
-  margin-top: 20%;
+  margin-left: 470px;
+  margin-top: 100px;
 }
 /* main END */
 
@@ -1418,75 +1419,67 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  /* width: 90%; */
   width: 760px;
 }
 
 #About h4 {
   margin: 0 0 0 60px;
-  font-size: 35px;
 }
 
 #About .About_Mtext p {
   margin: 10px 0 0 60px;
-  font-size: 0.8em;
 }
 
 #About .about_me {
-  width: 100%;
+  width: 760px;
 }
 
 #About .about_me img {
-  margin: -120px 0 0 60px;
-  width: 150px;
-  height: 150px;
+  margin: -70px 0 0 60px;
+  width: 250px;
+  height: 250px;
 }
 
 #About .about_me a {
-  /* margin: -60px 0 0 360px; */
-  margin: -90px 0 0 260px;
-  font-size: 1.2em;
+  margin: -60px 0 0 360px;
+  font-size: 1.3em;
 }
 
 #About .about_me .tools {
-  /* margin-top: -30px;
-  margin-left: 360px; */
-  font-size: 0.9em;
-  margin-top: -90px;
-  margin-left: 260px;
+  margin-top: -30px;
+  margin-left: 360px;
 }
 
 #About .about_me .tools ul li img {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 #About .about_me .skill {
-  font-size: 0.9em;
-  margin-top: 35px;
-  margin-left: 257px;
+  margin-top: 95px;
+  margin-left: 360px;
 }
 
 #About .about_me .skill ul li img {
-  height: 20px;
-  width: 20px;
+  height: 25px;
+  width: 25px;
 }
 
 #About .about_me .meT {
-  margin-top: 110px;
-  right: 270px;
+  margin-top: 170px;
+  right: 370px;
 }
 
 #About .about_me .meT p {
-  font-size: 1.1em;
+  font-size: 1.3em;
 }
 
 #About .about_me .meT ul li>p {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 #About .about_me .meT ul li>small {
-  font-size: 0.8em;
+  font-size: 0.9em;
 }
 /* About me END */
 
@@ -1500,7 +1493,7 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  width: 80%;
+  width: 760px;
   justify-content: start;
 }
 
@@ -1540,7 +1533,7 @@ footer #footerInner {
 .work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
   margin-top: 410px;
   font-size: 16px;
-  width: 80%;
+  width: 760px;
 }
 
 /* 사용기술 텍스트, 수정 */
@@ -1579,8 +1572,7 @@ footer #footerInner {
 .btn_effect {
   text-align: center;
   margin-top: 330px;
-  /* margin-left: 30%; - 인터넷 창 줄인걸론 이게 비율 예쁨 */
-  margin-left: 25%; /* f12로 보면 이거 */
+  margin-left: 170px;
 }
 
 /* 번개장터 위치조절 */
@@ -1590,14 +1582,14 @@ footer #footerInner {
 }
 .work_list .Wlist_5 .img_text p {
   margin-top: 370px;
-  left: -7%;
+  left: -40px;
 }
 .work_list .Wlist_5 .img_text p>span {
   left: 40px;
 }
 .work_list .Wlist_5 .btn_effect {
   margin-top: 380px;
-  margin-left: 30%;
+  margin-left: 180px;
 }
 /* work list END */
 
@@ -1615,11 +1607,7 @@ footer #footerInner {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 100%;
-  }
-
-  .Wlist_RmenuInner {
-    width: 80%;
+    width: 760px;
   }
   
     .Wlist_R {
@@ -1666,8 +1654,8 @@ footer #footerInner {
       position: relative;
       height: 45px;
       width: 45px;
-      top: 0%;
-      left: 0%;
+      top: 0;
+      left: 0;
       background-color: rgba(0, 0, 0, 0.4);
       border-radius: 50%;
       text-align: center;
@@ -1678,12 +1666,12 @@ footer #footerInner {
         footer
 =====================*/
 footer {
-  width: 90%;
+  width: 100%;
   height: 530px;
 }
 
 footer #footerInner {
-  width: 100%;
+  width: 760px;
   height: 530px;
 }
 
