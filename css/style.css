@@ -1382,20 +1382,20 @@ footer #footerInner {
   }
   
   .Mtxt {
-    width: 100%;
+    width: 80%;
   }
 
   .maintitle .outText {
     /* font-size: 8em; */
     font-size: 6em;
-    color: red; /* 나중에 빼야됨 */
-    margin-left: 30px;
+    color: blue; /* 나중에 빼야됨 */
+    margin-left: 0;
   }
 
   .lineani .underLine {
-    width: 300px;
+    width: 320px;
     height: 2px;
-    margin-left: 4.2%;
+    margin-left: -2.8%;
   }
 
   /* rotate ani */
@@ -1437,7 +1437,7 @@ footer #footerInner {
 }
 
 #About .about_me img {
-  margin: 10px 0 0 60px;
+  margin: -120px 0 0 60px;
   width: 150px;
   height: 150px;
 }
@@ -1500,7 +1500,7 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  width: 100%;
+  width: 80%;
   justify-content: start;
 }
 
