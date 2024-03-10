@@ -1390,8 +1390,8 @@ footer #footerInner {
 
   .lineani .underLine {
     width: 200px;
-    height: 1px;
-    margin-left: 7%;
+    height: 1.3px;
+    margin-left: 7.2%;
   }
 
   /* rotate ani */
@@ -1411,7 +1411,7 @@ footer #footerInner {
 /* About me start */
 .Tline_1 {
   width: 280px;
-  height: 1px;
+  height: 1.3px;
   margin: 0 0 0 20px; /* 추가 */
 }
 
@@ -1469,14 +1469,14 @@ footer #footerInner {
 
 #About .about_me .meT {
   margin-top: 140px;
-  right: 200px;
+  right: 0;
   /* margin-top: 140px;
   right: 240px; */
 }
 
 #About .about_me {
   width: 90%;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 
 #About .about_me .meT p {
