@@ -214,7 +214,6 @@ ul, li {
 }
 
 #page.overlay #overlay nav ul li {
-
   margin-left: 0;
   opacity: 1;
 }
@@ -255,7 +254,8 @@ ul, li {
 .Mtxt {
   position: relative;
   margin: 0 auto;
-  width: 1920px;
+  max-width: 1920px;
+  width: 100%;
   height: 1080px;
 }
 
@@ -341,16 +341,6 @@ ul, li {
   letter-spacing: -1px;
 }
 
-#Ffitem .Uline3 {
-  width: 1800px;
-  height: 2px;
-  background: #282828;
-  position: relative;
-  margin-left: 50%;
-  margin-top: 1%;
-  transform: translate(-50%, -50%);
-}
-
 @keyframes animate {
   0% {
     left: 0;
@@ -390,7 +380,7 @@ ul, li {
   height: 2.3px;
   background: #282828;
   margin-top: 1%;
-  margin-left: 5%;
+  margin-left: 5.5%;
 }
 
 
@@ -411,7 +401,8 @@ ul, li {
 }
 
 #About .aboutInner {
-  width: 1730px;
+  max-width: 1730px;
+  width: 100%;
   height: 780px;
   margin: 0 auto;
 }
@@ -536,7 +527,8 @@ ul, li {
 }
 
 .work_list {
-  width: 1730px;
+  width: 100%;
+  max-width: 1730px;
   position: absolute;
   left: 0;
   right: 0;
@@ -753,7 +745,9 @@ ul, li {
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
-  width: 1730px;
+  width: 100px;
+  max-width: 1730px;
+  /* width: 1730px; */
   height: 1150px;
   margin: 0 auto;
 }
@@ -931,11 +925,14 @@ ul, li {
 footer {
   width: 100%;
   height: 600px;
+  /* background-color: #979797; */
   position: relative;
 }
 
 footer #footerInner {
-  width: 1730px;
+  width: 100%;
+  max-width: 1730px;
+  /* width: 1730px; */
   height: 600px;
   margin: 0 auto;
   position: relative;
@@ -1017,7 +1014,7 @@ footer #footerInner {
 /* ===========================
           타블렛 tablet
   =========================== */
-@media (max-width: 760px) {
+@media (max-width: 990px) {
 
   .cursor {
     display: none;
@@ -1029,16 +1026,16 @@ footer #footerInner {
 
   #mainInner {
     height: 880px;
+    width: 100%;
   }
   
   .Mtxt {
-    max-width: 760px;
-    /* width: 990px; */
+    width: 100%;
     height: 780px;
   }
 
   .maintitle .outText {
-    font-size: 5em;
+    font-size: 10.7em;
     margin-left: 20px;
   }
 
@@ -1071,13 +1068,13 @@ footer #footerInner {
 }
 
 #About {
-  /* width: 990px; */
-  width: 100%;
+  width: 990px;
 }
 
 #About .aboutInner {
-  /* width: 900px; */
-  max-width: 760px;
+  width: 900px;
+  height: 780px;
+  margin: 0 auto;
 }
 
 #About .About_Mtext {
@@ -1093,7 +1090,7 @@ footer #footerInner {
 }
 
 #About .about_me {
-  width: 760px;
+  width: 990px;
 }
 
 #About .about_me img {
@@ -1147,8 +1144,18 @@ footer #footerInner {
 
 
 /* work list start */
+.Tline_2 {
+  width: 870px;
+}
+
+#Ffitem {
+  /* width: 100%; */
+  width: 990px;
+}
+
 .work_list {
-  max-width: 760px;
+  width: 900px;
+  max-width: 990px;
 }
 
 .Wlist_1,
@@ -1156,7 +1163,8 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  height: 960px;
+  max-width: 990px;
+  height: 990px;
 }
 
 .Wlist_1 .img_text,
@@ -1167,9 +1175,6 @@ footer #footerInner {
   display: contents;
 }
 
-.Tline_2 {
-  width: 870px;
-}
 /* 목차 */
 .Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
   margin: 40px 0 0 30px;
@@ -1258,7 +1263,7 @@ footer #footerInner {
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
-  width: 760px;
+  width: 990px;
 }
 
   .Wlist_RmenuInner {
@@ -1315,7 +1320,7 @@ footer {
 }
 
 footer #footerInner {
-  width: 760px;
+  width: 990px;
   height: 560px;
 }
 
@@ -1346,5 +1351,255 @@ footer #footerInner {
   font-size: 1.4em;
 }
 
+
+}
+
+/* ==================
+      모바일 mobile
+  ================== */
+@media (max-width:760px) {
+
+  .cursor {
+    display: none;
+  }
+
+  #toggle {
+    margin-right: -5px;
+  }
+
+  #mainInner {
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+  }
+
+  .Mtxt {
+    width: 100%;
+    height: 600px;
+  }
+
+  .maintitle .outText {
+    font-size: 4em;
+    /* color: burlywood; */
+    /* 나중에 빼야됨 */
+    margin-left: 30px;
+    letter-spacing: -1px;
+  }
+
+  .lineani .underLine {
+    width: 200px;
+    height: 1.3px;
+    margin-left: 7.6%;
+  }
+
+  /* rotate ani */
+  #mainInner .Mtxt h1 {
+  width: 133px;
+  height: 133px;
+  margin-left: 50%;
+  margin-top: 20%;
+}
+
+.subtext .intext {
+  font-size: 0.9em;
+  padding: 30px 55px 0 0;
+}
+/* main END */
+
+/* About me start */
+.Tline_1 {
+  width: 280px;
+  height: 1.3px;
+  margin: 0 0 0 20px; /* 추가 */
+}
+
+#About {
+  width: 100%;
+  height: 680px;
+}
+
+#About .aboutInner {
+  width: 100%;  
+  max-width: 760px;
+  height: 680px;
+}
+
+#About h4 {
+  margin: -20px 0 0 30px;
+  font-size: 35px;
+}
+
+#About .About_Mtext p {
+  margin: 5px 0 0 30px;
+  font-size: 0.8em;
+}
+
+#About .about_me img {
+  margin: -150px 0 0 20px;
+  width: 150px;
+  height: 150px;
+}
+
+#About .about_me a {
+  margin: -130px 0 0 200px;
+  font-size: 1em;
+  letter-spacing: -1px;
+}
+
+#About .about_me .tools {
+  width: 130px;
+  font-size: 0.8em;
+  margin-top: -140px;
+  margin-left: 200px;
+}
+#About .about_me .tools ul li img {
+  height: 20px;
+  width: 20px;
+}
+#About .about_me .skill {
+  font-size: 0.8em;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+#About .about_me .skill ul li img {
+  height: 20px;
+  width: 20px;
+}
+
+#About .about_me .meT {
+  left: 0;
+  right: 0;
+  transform: translate(-40%,0);
+  margin-top: 60px;
+}
+
+#About .about_me {
+  width: 100%;
+  max-width: 760px;
+}
+
+#About .about_me .meT p {
+  font-size: 1.1em;
+}
+
+#About .about_me .meT ul li>p {
+  font-size: 0.6em;
+}
+
+#About .about_me .meT ul li>small {
+  font-size: 0.8em;
+}
+/* About me END */
+
+/* work list start */
+#Ffitem {
+  width: 100%;
+}
+
+.work_list {
+  width: 100%;
+  max-width: 760px;
+}
+
+.Wlist_1,
+.Wlist_2,
+.Wlist_3,
+.Wlist_4,
+.Wlist_5 {
+  width: 660px;
+  max-width: 760px;
+  height: 960px;
+}
+
+.Wlist_1 .img_text,
+.Wlist_2 .img_text,
+.Wlist_3 .img_text,
+.Wlist_4 .img_text,
+.Wlist_5 .img_text {
+  display: contents;
+}
+
+.Tline_2 {
+  width: 280px;
+  height: 1.3px;
+  margin: 0 0 0 20px;
+}
+
+/* 목차 */
+.Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
+  margin: 20px 0 0 30px;
+}
+/* 웹 종류 설명 */
+.Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
+  font-size: 18px;
+  padding-left: 50px;
+}
+/* 사이트 이름 */
+.Wlist_1 .Htext a, .Wlist_2 .Htext a, .Wlist_3 .Htext a, .Wlist_4 .Htext a, .Wlist_5 .Htext a {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+/* 목업 이미지 */
+.Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
+  width: 490px;
+  height: 368px;
+  margin: 30px 0 0 170px;
+}
+.Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
+  margin-left: 0;
+}
+
+/* 설명텍스트 */
+.work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
+  margin-top: 420px;
+  font-size: 16px;
+}
+
+/* 번개장터 위치조절 */
+.Wlist_5 .effect figure img {
+  width: 420px;
+  height: 308px;
+  margin: 20px 0 0 250px;
+}
+.work_list .Wlist_5 .img_text p {
+  margin-top: 370px;
+  left: 3%;
+}
+
+/* 설명텍스트 위치조절 */
+.work_list .Wlist_1 .img_text p {
+  left: -1%;
+}
+.work_list .Wlist_2 .img_text p {
+  left: 2%;
+}
+.work_list .Wlist_3 .img_text p {
+  left: 8%;
+}
+.work_list .Wlist_4 .img_text p {
+  left: 5%;
+}
+
+.work_list .Wlist_1 .img_text p>u, .work_list .Wlist_2 .img_text p>u, .work_list .Wlist_3 .img_text p>u, .work_list .Wlist_4 .img_text p>u, .work_list .Wlist_5 .img_text p>u {
+  font-size: 18px;
+}
+
+.btn_effect {
+  text-align: center;
+  margin-top: 280px;
+  margin-left: -40px;
+}
+
+.work_list .Wlist_5 .btn_effect {
+    margin-top: 340px;
+    margin-left: 0;
+}
+
+.btn_effect a {
+  padding: 0;
+  margin-right: 30px;
+}
+/* work list END */
 
 }
