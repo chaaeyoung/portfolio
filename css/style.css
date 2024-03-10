@@ -403,7 +403,6 @@ ul, li {
 #About .aboutInner {
   max-width: 1730px;
   width: 100%;
-  /* width: 1730px; */
   height: 780px;
   margin: 0 auto;
 }
@@ -1386,7 +1385,7 @@ footer #footerInner {
     font-size: 4em;
     color: burlywood; /* 나중에 빼야됨 */
     margin-left: 30px;
-    letter-spacing: -1;
+    letter-spacing: -1px;
   }
 
   .lineani .underLine {
@@ -1447,6 +1446,7 @@ footer #footerInner {
 #About .about_me a {
   margin: -130px 0 0 200px;
   font-size: 1em;
+  letter-spacing: -1px;
 }
 
 #About .about_me .tools {
@@ -1470,12 +1470,15 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
+  /* border: 1px solid red; */
   left: 0;
   right: 0;
+  transform: translate(-80%,0);
+  margin-top: 60px;
 }
 
 #About .about_me .meT {
-  margin-top: 60px;
+  /* margin-top: 60px; */
   /* right: 150px; */
   /* margin-top: 140px;
   right: 240px; */
