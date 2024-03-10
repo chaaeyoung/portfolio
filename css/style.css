@@ -1444,14 +1444,14 @@ footer #footerInner {
 }
 
 #About .about_me a {
-  margin: -100px 0 0 220px;
+  margin: -100px 0 0 200px;
   font-size: 1em;
 }
 
 #About .about_me .tools {
   font-size: 0.8em;
-  margin-top: -50px;
-  margin-left: 30px;
+  margin-top: -110px;
+  margin-left: 200px;
 }
 #About .about_me .tools ul li img {
   height: 20px;
@@ -1459,8 +1459,8 @@ footer #footerInner {
 }
 #About .about_me .skill {
   font-size: 0.8em;
-  margin-top: 80px;
-  margin-left: 30px;
+  margin-top: 10px;
+  margin-left: 198px;
 }
 #About .about_me .skill ul li img {
   height: 20px;
@@ -1476,7 +1476,7 @@ footer #footerInner {
 
 #About .about_me {
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 #About .about_me .meT p {
