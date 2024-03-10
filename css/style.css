@@ -1383,13 +1383,14 @@ footer #footerInner {
   
   .Mtxt {
     /* width: 100%; */
-    width: 760px;
+    /* width: 760px; */
+    max-width: 760px;
   }
 
   .maintitle .outText {
     /* font-size: 8em; */
     font-size: 6em;
-    color: blue; /* 나중에 빼야됨 */
+    color: red; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
@@ -1419,7 +1420,8 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  width: 760px;
+  /* width: 760px; */
+  max-width: 760px;
 }
 
 #About h4 {
@@ -1496,6 +1498,7 @@ footer #footerInner {
 /* work list start */
 .work_list {
   width: 100%;
+  max-width: 760px;
 }
 
 .Wlist_1,
@@ -1617,7 +1620,8 @@ footer #footerInner {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 760px;
+    /* width: 760px; */
+    max-width: 760px;
   }
   
     .Wlist_R {
@@ -1675,7 +1679,8 @@ footer {
 }
 
 footer #footerInner {
-  width: 760px;
+  /* width: 760px; */
+  max-width: 760px;
   height: 530px;
 }
 
