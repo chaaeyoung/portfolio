@@ -1449,6 +1449,9 @@ footer #footerInner {
 }
 
 #About .about_me .tools {
+  /* border: 1px solid red; */
+  width: 150px;
+  /* background-color: #000; */
   font-size: 0.8em;
   margin-top: -110px;
   margin-left: 200px;
