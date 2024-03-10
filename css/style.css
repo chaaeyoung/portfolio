@@ -1410,13 +1410,19 @@ footer #footerInner {
 
 /* About me start */
 .Tline_1 {
-  width: 380px;
+  width: 280px;
+  border: 1px;
   margin: 0 0 0 20px; /* 추가 */
 }
 
 #About {
   width: 100%;
   height: 680px;
+}
+
+
+#About .about_me {
+  width: 100%;
 }
 
 #About .aboutInner {
@@ -1436,10 +1442,6 @@ footer #footerInner {
   font-size: 0.8em;
 }
 
-/* #About .about_me {
-  width: 100%;
-} */
-
 #About .about_me img {
   margin: -150px 0 0 40px;
   width: 150px;
@@ -1447,14 +1449,14 @@ footer #footerInner {
 }
 
 #About .about_me a {
-  margin: -140px 0 0 220px;
-  font-size: 1.1em;
+  margin: -100px 0 0 220px;
+  font-size: 1em;
 }
 
 #About .about_me .tools {
   font-size: 0.8em;
-  margin-top: -140px;
-  margin-left: 220px;
+  margin-top: -50px;
+  margin-left: 30px;
 }
 #About .about_me .tools ul li img {
   height: 20px;
@@ -1462,8 +1464,8 @@ footer #footerInner {
 }
 #About .about_me .skill {
   font-size: 0.8em;
-  margin-top: -20px;
-  margin-left: 220px;
+  margin-top: 80px;
+  margin-left: 30px;
 }
 #About .about_me .skill ul li img {
   height: 20px;
@@ -1471,8 +1473,8 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  margin-top: 50px;
-  right: 50px;
+  margin-top: 140px;
+  right: 240px;
 }
 
 #About .about_me .meT p {
