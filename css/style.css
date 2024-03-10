@@ -1469,6 +1469,7 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
+  display: none;
   margin-top: 60px;
   right: 40px;
   /* margin-top: 140px;
