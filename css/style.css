@@ -254,7 +254,6 @@ ul, li {
 .Mtxt {
   position: relative;
   margin: 0 auto;
-  /* width: 1920px; */
   max-width: 1920px;
   width: 100%;
   height: 1080px;
@@ -473,12 +472,6 @@ ul, li {
   height: 350px;
 }
 
-/* #About .about_me img {
-  margin: -6px 0 0 200px;
-  width: 300px;
-  height: 300px;
-} */
-
 #About .about_me .tools {
   margin-top: 70px;
   margin-left: 600px;
@@ -535,7 +528,9 @@ ul, li {
 }
 
 .work_list {
-  width: 1730px;
+  width: 100%;
+  max-width: 1730px;
+  /* width: 1730px; */
   position: absolute;
   left: 0;
   right: 0;
@@ -752,7 +747,9 @@ ul, li {
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
-  width: 1730px;
+  width: 100px;
+  max-width: 1730px;
+  /* width: 1730px; */
   height: 1150px;
   margin: 0 auto;
 }
@@ -935,7 +932,9 @@ footer {
 }
 
 footer #footerInner {
-  width: 1730px;
+  width: 100%;
+  max-width: 1730px;
+  /* width: 1730px; */
   height: 600px;
   margin: 0 auto;
   position: relative;
@@ -1029,11 +1028,11 @@ footer #footerInner {
 
   #mainInner {
     height: 880px;
+    width: 100%;
   }
   
   .Mtxt {
-    /* width: 990px; */
-    width: 90%;
+    width: 100%;
     height: 780px;
   }
 
@@ -1371,22 +1370,20 @@ footer #footerInner {
 
   #mainInner {
     justify-content: center;
-    height: 780px;
+    height: 600px;
     /* width: 760px; */
     width: 100%;
-    /* border: 1px solid red; */
   }
 
   .Mtxt {
     /* width: 760px; */
     width: 100%;
-    height: 780px;
-    border: 1px solid red;
+    height: 600px;
   }
 
   .maintitle .outText {
     font-size: 4em;
-    color: brown; /* 나중에 빼야됨 */
+    color: burlywood; /* 나중에 빼야됨 */
     margin-left: 30px;
     letter-spacing: -1;
   }
@@ -1394,14 +1391,14 @@ footer #footerInner {
   .lineani .underLine {
     width: 200px;
     height: 2px;
-    margin-left: 5.2%;
+    margin-left: 7%;
   }
 
   /* rotate ani */
   #mainInner .Mtxt h1 {
   width: 133px;
   height: 133px;
-  margin-left: 60%;
+  margin-left: 50%;
   margin-top: 20%;
 }
 
@@ -1413,8 +1410,82 @@ footer #footerInner {
 
 /* About me start */
 .Tline_1 {
-  width: 540px;
-  margin: 0 0 0 55px; /* 추가 */
+  width: 380px;
+  margin: 0 0 0 20px; /* 추가 */
 }
+
+#About {
+  width: 100%;
+  height: 680px;
+}
+
+#About .aboutInner {
+  width: 100%;  
+  max-width: 760px;
+  height: 680px;
+  border: 1px solid red;
+}
+
+#About h4 {
+  margin: -20px 0 0 30px;
+  font-size: 35px;
+}
+
+#About .About_Mtext p {
+  margin: 5px 0 0 30px;
+  font-size: 0.8em;
+}
+
+#About .about_me {
+  width: 100%;
+}
+
+#About .about_me img {
+  margin: -150px 0 0 40px;
+  width: 150px;
+  height: 150px;
+}
+
+#About .about_me a {
+  margin: -140px 0 0 220px;
+  font-size: 1.1em;
+}
+
+#About .about_me .tools {
+  font-size: 0.8em;
+  margin-top: -140px;
+  margin-left: 220px;
+}
+#About .about_me .tools ul li img {
+  height: 20px;
+  width: 20px;
+}
+#About .about_me .skill {
+  font-size: 0.8em;
+  margin-top: -20px;
+  margin-left: 220px;
+}
+#About .about_me .skill ul li img {
+  height: 20px;
+  width: 20px;
+}
+
+#About .about_me .meT {
+  margin-top: 50px;
+  right: 50px;
+}
+
+#About .about_me .meT p {
+  font-size: 1.1em;
+}
+
+#About .about_me .meT ul li>p {
+  font-size: 0.8em;
+}
+
+#About .about_me .meT ul li>small {
+  font-size: 0.8em;
+}
+/* About me END */
 
 }
