@@ -1032,6 +1032,7 @@ footer #footerInner {
   
   .Mtxt {
     /* width: 990px; */
+    width: 90%;
     height: 780px;
   }
 
@@ -1368,9 +1369,10 @@ footer #footerInner {
   }
 
   #mainInner {
+    justify-content: center;
     height: 780px;
     /* width: 760px; */
-    width: 90%;
+    width: 100%;
     /* border: 1px solid red; */
   }
 
@@ -1382,8 +1384,8 @@ footer #footerInner {
   }
 
   .maintitle .outText {
-    font-size: 6em;
-    color: red; /* 나중에 빼야됨 */
+    font-size: 5em;
+    color: blue; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
