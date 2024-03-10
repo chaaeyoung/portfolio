@@ -931,7 +931,6 @@ ul, li {
 footer {
   width: 100%;
   height: 600px;
-  /* background-color: #979797; */
   position: relative;
 }
 
@@ -1018,7 +1017,7 @@ footer #footerInner {
 /* ===========================
           타블렛 tablet
   =========================== */
-@media (max-width: 990px) {
+@media (max-width: 760px) {
 
   .cursor {
     display: none;
@@ -1033,13 +1032,13 @@ footer #footerInner {
   }
   
   .Mtxt {
-    max-width: 990px;
+    max-width: 760px;
     /* width: 990px; */
     height: 780px;
   }
 
   .maintitle .outText {
-    font-size: 10.7em;
+    font-size: 5em;
     margin-left: 20px;
   }
 
@@ -1078,7 +1077,7 @@ footer #footerInner {
 
 #About .aboutInner {
   /* width: 900px; */
-  max-width: 990px;
+  max-width: 760px;
 }
 
 #About .About_Mtext {
@@ -1094,7 +1093,7 @@ footer #footerInner {
 }
 
 #About .about_me {
-  width: 990px;
+  width: 760px;
 }
 
 #About .about_me img {
@@ -1149,7 +1148,7 @@ footer #footerInner {
 
 /* work list start */
 .work_list {
-  max-width: 990px;
+  max-width: 760px;
 }
 
 .Wlist_1,
@@ -1259,7 +1258,7 @@ footer #footerInner {
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
-  width: 990px;
+  width: 760px;
 }
 
   .Wlist_RmenuInner {
@@ -1316,7 +1315,7 @@ footer {
 }
 
 footer #footerInner {
-  width: 990px;
+  width: 760px;
   height: 560px;
 }
 
@@ -1347,351 +1346,5 @@ footer #footerInner {
   font-size: 1.4em;
 }
 
-
-}
-
-/* ==================
-      모바일 mobile
-  ================== */
-@media (max-width:760px) {
-
-  .cursor {
-    display: none;
-  }
-
-  #toggle {
-    margin-right: -5px;
-  }
-
-  #mainInner {
-    height: 780px;
-  }
-  
-  .Mtxt {
-    /* width: 100%; */
-    /* width: 760px; */
-    max-width: 760px;
-  }
-
-  .maintitle .outText {
-    /* font-size: 8em; */
-    font-size: 6em;
-    color: blue; /* 나중에 빼야됨 */
-    margin-left: 30px;
-  }
-
-  .lineani .underLine {
-    width: 300px;
-    height: 2px;
-    margin-left: 30px;
-  }
-
-  /* rotate ani */
-  #mainInner .Mtxt h1 {
-  width: 163px;
-  height: 163px;
-  margin-left: 470px;
-  margin-top: 100px;
-}
-/* main END */
-
-/* About me start */
-.Tline_1 {
-  width: 540px;
-  margin: 0 0 0 55px; /* 추가 */
-}
-
-#About {
-  width: 100%;
-}
-
-#About .aboutInner {
-  max-width: 760px;
-}
-
-#About h4 {
-  margin: 0 0 0 60px;
-  font-size: 35px;
-}
-
-#About .About_Mtext p {
-  margin: 10px 0 0 60px;
-  font-size: 0.9em;
-}
-
-#About .about_me {
-  width: 760px;
-}
-
-#About .about_me img {
-  margin: -90px 0 0 60px;
-  width: 200px;
-  height: 200px;
-}
-
-#About .about_me a {
-  margin: -60px 0 0 300px;
-  font-size: 1.1em;
-}
-
-#About .about_me .tools {
-  margin-top: -60px;
-  margin-left: 300px;
-}
-
-#About .about_me .tools p {
-  font-size: 1.2em;
-}
-
-#About .about_me .tools ul li img {
-  height: 25px;
-  width: 25px;
-}
-
-#About .about_me .skill {
-  margin-top: 65px;
-  margin-left: 300px;
-}
-
-#About .about_me .skill p {
-  font-size: 1.2em;
-}
-
-#About .about_me .skill ul li img {
-  height: 25px;
-  width: 25px;
-}
-
-#About .about_me .meT {
-  margin-top: 130px;
-  right: 205px;
-}
-
-#About .about_me .meT p {
-  font-size: 1.3em;
-}
-
-#About .about_me .meT ul li>p {
-  font-size: 1.1em;
-}
-
-#About .about_me .meT ul li>small {
-  font-size: 0.9em;
-}
-/* About me END */
-
-/* work list start */
-.work_list {
-  max-width: 760px;
-}
-
-.Wlist_1,
-.Wlist_2,
-.Wlist_3,
-.Wlist_4,
-.Wlist_5 {
-  width: 760px;
-  justify-content: start;
-}
-
-.Tline_2 {
-  width: 540px;
-  margin: 0 0 0 55px;
-}
-
-/* 목차 */
-.Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
-  margin: 40px 0 0 50px;
-
-}
-/* 웹 종류 설명 */
-.Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
-  font-size: 18px;
-  padding-left: 0px;
-  margin-left: 60px;
-}
-/* 사이트 이름 */
-.Wlist_1 .Htext a, .Wlist_2 .Htext a, .Wlist_3 .Htext a, .Wlist_4 .Htext a, .Wlist_5 .Htext a {
-  margin-left: 60px;
-  margin-top: -5px;
-}
-
-/* 목업 이미지 */
-.Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
-  width: 460px;
-  height: 338px;
-  margin: 30px 0 0 140px;
-}
-.Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
-  margin-left: 0;
-}
-
-/* 사용기술 텍스트, 공통 */
-.work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
-  margin-top: 410px;
-  font-size: 16px;
-  width: 760px;
-}
-
-/* 사용기술 텍스트, 수정 */
-.work_list .Wlist_1 .img_text p {
-  left: 30px;
-}
-.work_list .Wlist_2 .img_text p {
-  left: 60px;
-}
-
-/* 설명텍스트 중앙정렬, 공통 */
-.work_list .Wlist_1 .img_text p>span, .work_list .Wlist_2 .img_text p>span, .work_list .Wlist_3 .img_text p>span, .work_list .Wlist_4 .img_text p>span, .work_list .Wlist_5 .img_text p>span {
-  position: relative;
-  display: flex;
-  text-align: center;
-  top: -20px;
-}
-
-/* 설명텍스트 중앙정렬, 수정 */
-.work_list .Wlist_1 .img_text p>span {
-  right: 90px;
-}
-
-.work_list .Wlist_2 .img_text p>span {
-  right: 100px;
-}
-
-.work_list .Wlist_3 .img_text p>span {
-  right: 40px;
-}
-
-.work_list .Wlist_4 .img_text p>span {
-  right: 50px;
-}
-
-.btn_effect {
-  text-align: center;
-  margin-top: 330px;
-  margin-left: 170px;
-}
-
-/* 번개장터 위치조절 */
-.Wlist_5 .effect figure img {
-  height: 288px;
-  margin: 15px 0 0 170px;
-}
-.work_list .Wlist_5 .img_text p {
-  margin-top: 370px;
-  left: -40px;
-}
-.work_list .Wlist_5 .img_text p>span {
-  left: 40px;
-}
-.work_list .Wlist_5 .btn_effect {
-  margin-top: 380px;
-  margin-left: 180px;
-}
-/* work list END */
-
-/* ====================================
-    포트폴리오 사각 영역 (more view)
-  ==================================== */
-  .Tline_3 {
-    width: 540px;
-    margin: 0 0 0 35px;
-    }
-
-  .Wlist_Rmenu {
-    margin-top: 400px;
-    height: 1040px;
-  }
-  
-  .Wlist_Rmenu .Wlist_RmenuInner {
-    /* width: 760px; */
-    max-width: 760px;
-  }
-  
-    .Wlist_R {
-      margin-top: -30px;
-      max-width: 300px;
-      max-height: 350px;
-    }
-
-    #Wlist_B {
-      margin-top: 450px;
-    }
-  
-    .Wlist_Rmenu span {
-      margin: 40px 0 0 40px;
-    }
-  
-    #Wlist_T .Wlist_R:nth-child(4) {
-      margin-right: 50px;
-    }
-    #Wlist_B .Wlist_R:nth-child(4) {
-      margin-right: 50px;
-    }
-
-    .Wlist_R img {
-      object-fit: cover;
-      object-position: -220px 0;
-      width: 300px;
-      height: 350px;
-    }
-
-    .Wlist_R h6 {
-      font-size: 14px;
-      line-height: 45px;
-      padding: 0 15px;
-    }
-
-    .Wlist_R .circle {
-      position: relative;
-      height: 45px;
-      width: 45px;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.4);
-      border-radius: 50%;
-      text-align: center;
-    }
-    /* 포트폴리오 사각 영역 (more view) END */
-
-/* =====================
-        footer
-=====================*/
-footer {
-  height: 530px;
-}
-
-footer #footerInner {
-  max-width: 760px;
-  height: 530px;
-}
-
-.contact .contacttitle .Fintext {
-  margin-left: 30px;
-  font-size: 5em;
-}
-
-.contact .contacttitle .Fintext:last-child {
-  font-size: 4em;
-}
-
-.contcatText {
-  margin: 40px 0 0 40px;
-}
-
-.contact .contcatText a {
-  margin-right: 20px;
-  font-size: 1.3em;
-}
-
-#footerInner .Lcopylight {
-  margin: 10px 0 0 39px;
-}
-
-#footerInner .Rcopylight {
-  margin: 50px 50px 0 0;
-  /* margin: 50px 280px 0 0; */
-  font-size: 1.3em;
-}
 
 }
