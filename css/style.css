@@ -1053,7 +1053,7 @@ footer #footerInner {
   margin-top: 7%;
 }
 
-  .subtext .intext {
+.subtext .intext {
     text-align: right;
     font-size: 1.2em;
     font-weight: 500;
@@ -1259,7 +1259,7 @@ footer #footerInner {
   }
   
 .Wlist_Rmenu {
-  margin-top: 400px;
+  margin-top: 550px;
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
@@ -1380,9 +1380,13 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    color: blueviolet;
+    color: blue;
     margin-left: 30px;
     letter-spacing: -1px;
+  }
+
+  .maintitle .outText:first-child {
+    padding-top: 120px;
   }
 
   .lineani .underLine {
@@ -1393,8 +1397,8 @@ footer #footerInner {
 
   /* rotate ani */
   #mainInner .Mtxt h1 {
-  width: 133px;
-  height: 133px;
+  width: 103px;
+  height: 103px;
   margin-left: 50%;
   margin-top: 20%;
 }
@@ -1543,7 +1547,7 @@ footer #footerInner {
 .Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
   width: 290px;
   height: 238px;
-  margin: 30px 0 0 30px;
+  margin: 30px 0 0 0px;
 }
 .Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
   margin-left: 0;
@@ -1573,44 +1577,35 @@ footer #footerInner {
   font-size: 13px;
 }
 
-/* 번개장터 위치조절 */
-.Wlist_5 .effect figure img {
-  width: 420px;
-  height: 308px;
-  margin: 20px 0 0 250px;
-}
-.work_list .Wlist_5 .img_text p {
-  margin-top: 370px;
-  left: 3%;
-}
-
 /* 설명텍스트 위치조절 */
 .work_list .Wlist_1 .img_text p {
   left: -1%;
 }
 .work_list .Wlist_2 .img_text p {
-  left: 2%;
+  left: -10px;
 }
 .work_list .Wlist_3 .img_text p {
-  left: 8%;
+  left: -10px;
 }
 .work_list .Wlist_4 .img_text p {
-  left: 5%;
-}
-
-.work_list .Wlist_1 .img_text p>u, .work_list .Wlist_2 .img_text p>u, .work_list .Wlist_3 .img_text p>u, .work_list .Wlist_4 .img_text p>u, .work_list .Wlist_5 .img_text p>u {
-  font-size: 18px;
+  left: -30px;
+  width: 290px;
 }
 
 .btn_effect {
   text-align: center;
-  margin-top: 380px;
-  margin-left: 70px;
+  margin-top: 350px;
+  margin-left: 20px;
 }
 
 .work_list .Wlist_5 .btn_effect {
-    margin-top: 340px;
-    margin-left: 0;
+    margin-top: 380px;
+    margin-left: 40px;
+}
+
+.work_list .Wlist_5 .img_text p {
+  left: -30px;
+  width: 290px;
 }
 
 .btn_effect a {
@@ -1618,5 +1613,124 @@ footer #footerInner {
   margin-right: 30px;
 }
 /* work list END */
+
+/* ====================================
+    포트폴리오 사각 영역 (more view)
+  ==================================== */
+  .Tline_3 {
+    width: 280px;
+    height: 1.3px;
+    margin: 0 0 0 20px;
+    }
+  
+  .Wlist_Rmenu .Wlist_RmenuInner {
+    width: 100%;
+    max-width: 760px;
+  }
+  
+    .Wlist_R {
+      margin-top: -40px;
+      max-width: 300px;
+      max-height: 300px;
+    }
+
+    #Wlist_B {
+      margin-top: 400px;
+    }
+  
+    .Wlist_Rmenu span {
+      margin: 20px 0 0 40px;
+      font-size: 40px;
+      
+    }
+  
+    #Wlist_T .Wlist_R:nth-child(1) {
+      margin-left: 20px;
+    }
+    #Wlist_T .Wlist_R:nth-child(4) {
+      margin-right: 20px;
+    }
+    #Wlist_B .Wlist_R:nth-child(1) {
+      margin-left: 20px;
+    }
+    #Wlist_B .Wlist_R:nth-child(4) {
+      margin-right: 20px;
+    }
+  
+    .Wlist_R img {
+      width: 300px;
+      height: 300px;
+      object-fit: cover;
+      object-position: -220px 0;
+    }
+  
+    .Wlist_R h6 {
+      font-size: 12px;
+      line-height: 30px;
+      padding: 0 15px;
+      letter-spacing: -1px;
+    }
+  
+    .Wlist_R p {
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 20px;
+      word-break:break-all;
+      max-width: 100px;
+    }
+
+    .Wlist_R .circle {
+      position: relative;
+      height: 30px;
+      width: 30px;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      text-align: center;
+    }
+    /* 포트폴리오 사각 영역 (more view) END */
+
+/* =====================
+        footer
+=====================*/
+footer {
+  width: 100%;
+  height: 530px;
+}
+
+footer #footerInner {
+  width: 760px;
+  height: 530px;
+}
+
+.contact .contacttitle .Fintext {
+  margin-left: 30px;
+  font-size: 3em;
+}
+
+.contact .contacttitle .Fintext:last-child {
+  font-size: 2.3em;
+}
+
+.contcatText {
+  margin: 40px 0 0 40px;
+}
+
+.contact .contcatText a {
+  margin-right: 20px;
+  font-size: 1em;
+}
+
+#footerInner .Lcopylight {
+  margin: 0px 0 0 39px;
+  font-size: 0.8em;
+}
+
+#footerInner .Rcopylight {
+  /* margin: 50px 50px 0 0; */
+  margin: 50px 340px 0 0;
+  font-size: 1.1em;
+} 
 
 }
