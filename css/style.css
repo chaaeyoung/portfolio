@@ -529,7 +529,6 @@ ul, li {
 .work_list {
   width: 100%;
   max-width: 1730px;
-  /* width: 1730px; */
   position: absolute;
   left: 0;
   right: 0;
@@ -1100,12 +1099,6 @@ footer #footerInner {
   height: 300px;
 }
 
-/* #About .about_me img {
-  margin: -60px 0 0 130px;
-  width: 250px;
-  height: 250px;
-} */
-
 #About .about_me a {
   margin: -50px 0 0 450px;
   font-size: 1.3em;
@@ -1142,7 +1135,6 @@ footer #footerInner {
 #About .about_me .meT {
   margin-top: 180px;
   right: 255px;
-  /* right: 235px; */
 }
 
 #About .about_me .meT p {
@@ -1152,8 +1144,18 @@ footer #footerInner {
 
 
 /* work list start */
-.work_list {
+.Tline_2 {
+  width: 870px;
+}
+
+#Ffitem {
+  /* width: 100%; */
   width: 990px;
+}
+
+.work_list {
+  width: 900px;
+  max-width: 990px;
 }
 
 .Wlist_1,
@@ -1161,7 +1163,8 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  height: 960px;
+  max-width: 990px;
+  height: 990px;
 }
 
 .Wlist_1 .img_text,
@@ -1172,9 +1175,6 @@ footer #footerInner {
   display: contents;
 }
 
-.Tline_2 {
-  width: 870px;
-}
 /* 목차 */
 .Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
   margin: 40px 0 0 30px;
@@ -1370,12 +1370,10 @@ footer #footerInner {
   #mainInner {
     justify-content: center;
     height: 600px;
-    /* width: 760px; */
     width: 100%;
   }
 
   .Mtxt {
-    /* width: 760px; */
     width: 100%;
     height: 600px;
   }
@@ -1495,11 +1493,12 @@ footer #footerInner {
 
 /* work list start */
 #Ffitem {
-  justify-content: center;
+  width: 100%;
 }
 
 .work_list {
   width: 100%;
+  max-width: 760px;
 }
 
 .Wlist_1,
@@ -1507,6 +1506,8 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
+  width: 660px;
+  max-width: 760px;
   height: 960px;
 }
 
@@ -1526,7 +1527,7 @@ footer #footerInner {
 
 /* 목차 */
 .Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
-  margin: 40px 0 0 30px;
+  margin: 20px 0 0 30px;
 }
 /* 웹 종류 설명 */
 .Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
