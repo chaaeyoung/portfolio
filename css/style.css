@@ -1472,7 +1472,6 @@ footer #footerInner {
 #About .about_me .meT {
   left: 0;
   right: 0;
-  /* margin-right: 200px; */
 }
 
 #About .about_me .meT {
@@ -1492,7 +1491,7 @@ footer #footerInner {
 }
 
 #About .about_me .meT ul li>p {
-  font-size: 0.8em;
+  font-size: 0.6em;
 }
 
 #About .about_me .meT ul li>small {
