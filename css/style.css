@@ -1417,13 +1417,13 @@ footer #footerInner {
 
 #About {
   width: 100%;
-  /* height: 680px; */
+  height: 680px;
 }
 
 #About .aboutInner {
   width: 100%;  
   max-width: 760px;
-  /* height: 680px; */
+  height: 680px;
   border: 1px solid red;
 }
 
@@ -1438,20 +1438,20 @@ footer #footerInner {
 }
 
 #About .about_me img {
-  margin: -150px 0 0 150px;
+  margin: -150px 0 0 40px;
   width: 150px;
   height: 150px;
 }
 
 #About .about_me a {
-  margin: 20px 0 0 160px;
+  margin: -100px 0 0 220px;
   font-size: 1em;
 }
 
 #About .about_me .tools {
   font-size: 0.8em;
-  margin-top: 10px;
-  margin-left: 130px;
+  margin-top: -50px;
+  margin-left: 30px;
 }
 #About .about_me .tools ul li img {
   height: 20px;
@@ -1459,8 +1459,8 @@ footer #footerInner {
 }
 #About .about_me .skill {
   font-size: 0.8em;
-  margin-top: 130px;
-  margin-left: 130px;
+  margin-top: 80px;
+  margin-left: 30px;
 }
 #About .about_me .skill ul li img {
   height: 20px;
@@ -1468,15 +1468,15 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  margin-top: 200px;
-  right: 135px;
+  margin-top: 140px;
+  right: 130px;
   /* margin-top: 140px;
   right: 240px; */
 }
 
 #About .about_me {
   width: 100%;
-  /* border: 1px solid blue; */
+  border: 1px solid blue;
 }
 
 #About .about_me .meT p {
