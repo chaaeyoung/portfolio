@@ -1381,12 +1381,18 @@ footer #footerInner {
     height: 780px;
     /* width: 760px; */
     width: 80%;
+    /* border: 1px solid red; */
+  }
+
+  .Mtxt {
+    width: 760px;
+    height: 780px;
     border: 1px solid red;
   }
 
   .maintitle .outText {
     font-size: 6em;
-    color: red; /* 나중에 빼야됨 */
+    color: blue; /* 나중에 빼야됨 */
     margin-left: 30px;
   }
 
