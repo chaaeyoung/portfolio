@@ -1380,8 +1380,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    /* color: burlywood; */
-    /* 나중에 빼야됨 */
+    color: burlywood;
     margin-left: 30px;
     letter-spacing: -1px;
   }
@@ -1506,7 +1505,7 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  width: 660px;
+  /* width: 660px; */
   max-width: 760px;
   height: 960px;
 }
@@ -1522,29 +1521,29 @@ footer #footerInner {
 .Tline_2 {
   width: 280px;
   height: 1.3px;
-  margin: 0 0 0 20px;
+  margin: 0 0 0 -20px;
 }
 
 /* 목차 */
 .Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
-  margin: 20px 0 0 30px;
+  margin: 20px 0 0 0px;
 }
 /* 웹 종류 설명 */
 .Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
   font-size: 18px;
-  padding-left: 50px;
+  padding-left: 0px;
 }
 /* 사이트 이름 */
 .Wlist_1 .Htext a, .Wlist_2 .Htext a, .Wlist_3 .Htext a, .Wlist_4 .Htext a, .Wlist_5 .Htext a {
   font-size: 40px;
-  margin-left: 50px;
+  margin-left: 0px;
 }
 
 /* 목업 이미지 */
 .Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
-  width: 490px;
-  height: 368px;
-  margin: 30px 0 0 170px;
+  width: 290px;
+  height: 238px;
+  margin: 30px 0 0 60px;
 }
 .Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
   margin-left: 0;
@@ -1552,8 +1551,9 @@ footer #footerInner {
 
 /* 설명텍스트 */
 .work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
-  margin-top: 420px;
-  font-size: 16px;
+  margin-top: 320px;
+  margin-left: 100px;
+  font-size: 13px;
 }
 
 /* 번개장터 위치조절 */
@@ -1587,8 +1587,8 @@ footer #footerInner {
 
 .btn_effect {
   text-align: center;
-  margin-top: 280px;
-  margin-left: -40px;
+  margin-top: 380px;
+  margin-left: 70px;
 }
 
 .work_list .Wlist_5 .btn_effect {
