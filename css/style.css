@@ -445,6 +445,7 @@ ul, li {
 }
 
 #About .about_me .meT {
+  border: 1px solid red;
   margin-top: 20px;
   right: 350px;
   position: relative;
@@ -1469,8 +1470,14 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
+  left: 0;
+  right: 0;
+  /* margin-right: 200px; */
+}
+
+#About .about_me .meT {
   margin-top: 60px;
-  right: 150px;
+  /* right: 150px; */
   /* margin-top: 140px;
   right: 240px; */
 }
@@ -1478,7 +1485,6 @@ footer #footerInner {
 #About .about_me {
   width: 100%;
   max-width: 760px;
-  /* border: 1px solid blue; */
 }
 
 #About .about_me .meT p {
