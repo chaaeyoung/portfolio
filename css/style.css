@@ -1436,9 +1436,9 @@ footer #footerInner {
   font-size: 0.8em;
 }
 
-#About .about_me {
+/* #About .about_me {
   width: 100%;
-}
+} */
 
 #About .about_me img {
   margin: -150px 0 0 40px;
