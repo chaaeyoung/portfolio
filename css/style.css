@@ -1469,14 +1469,14 @@ footer #footerInner {
 
 #About .about_me .meT {
   margin-top: 140px;
-  right: 130px;
+  right: 160px;
   /* margin-top: 140px;
   right: 240px; */
 }
 
 #About .about_me {
   width: 100%;
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
 }
 
 #About .about_me .meT p {
