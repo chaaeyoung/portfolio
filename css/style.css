@@ -1387,7 +1387,7 @@ footer #footerInner {
   }
 
   .maintitle .outText {
-    color: brown;
+    color: bisque;
     font-size: 4em;
     margin-left: 30px;
     letter-spacing: -1px;
@@ -1425,7 +1425,6 @@ footer #footerInner {
 }
 
 #About {
-  /* width: 100%; */
   width: 760px;
   max-width: 760px;
   height: 680px;
@@ -1486,11 +1485,7 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  /* border: 1px solid red; */
-  /* margin-right: 200px; */
-  margin-right: 169px;
-  /* margin-right: 300px; */
-  /* transform: translate(-307%,0); */
+  margin-right: 170px;
   margin-top: 60px;
 }
 
@@ -1500,7 +1495,7 @@ footer #footerInner {
 }
 
 #About .about_me .meT p {
-  font-size: 1.1em;
+  font-size: 0.9em;
 }
 
 #About .about_me .meT ul li>p {
