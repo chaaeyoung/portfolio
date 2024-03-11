@@ -12,10 +12,10 @@
   padding: 0;
   font-family: 'Raleway', sans-serif;
   cursor: url("../images/Ellipse2.png") 5 5, auto;
+  white-space: nowrap;
 }
 
 html, body {
-  max-width: 100%;
   overflow-x: hidden;
   }
 
@@ -248,19 +248,20 @@ ul, li {
 #mainInner {
   width: 100%;
   height: 1080px;
-  display: flex;
+  /* display: flex; */
+  position: relative;
+  display: block;
 }
 
 .Mtxt {
-  position: relative;
+  /* position: relative; */
   margin: 0 auto;
-  max-width: 1920px;
-  width: 100%;
+  width: 1920px;
   height: 1080px;
 }
 
 /* rotate ani */
-#mainInner .Mtxt h1 {
+#mainInner .Mtxt h1.logo img {
   width: 263px;
   height: 263px;
   margin-left: 75%;
@@ -278,36 +279,34 @@ ul, li {
 }
 
 /* popup mainText */
-.maintitle {
+#mainInner .Mtxt .maintitle {
   position: relative;
   font-size: 12px;
 }
 
-.maintitle .outText {
+#mainInner .Mtxt .maintitle .outText {
   overflow-y: hidden;
   display: block;
   margin-left: 100px;
   text-align: left;
-  /* font-size: 180px; */
   font-size: 15em;
   line-height: 0.8;
   color: #282828;
 }
 
-.maintitle .outText:first-child {
+#mainInner .Mtxt .maintitle .outText:first-child {
   padding-top: 70px;
 }
 
-.maintitle .outText:nth-child(2) .intext {
+#mainInner .Mtxt .maintitle .outText:nth-child(2) .intext {
   letter-spacing: -3.5px;
 }
 
-.maintitle .outText:nth-child(3) .intext {
-  /* font-size: 130px; */
+#mainInner .Mtxt .maintitle .outText:nth-child(3) .intext {
   font-size: 0.7em;
 }
 
-.maintitle .intext {
+#mainInner .Mtxt .maintitle .intext {
   font-family: 'Montserrat', sans-serif;
   font-weight: 800;
   line-height: 0.8;
@@ -318,23 +317,22 @@ ul, li {
 }
 
 /* subText */
-.subtext {
+#mainInner .Mtxt .subtext {
   display: flex;
   justify-content: flex-end;
 }
 
-.subtext .outText {
+#mainInner .Mtxt .subtext .outText {
   overflow-y: hidden;
   display: block;
 }
 
-.subtext .intext {
+#mainInner .Mtxt .subtext .intext {
   text-align: right;
   animation-name: grow;
   animation-duration: 0.8s;
   color: #282828;
   font-family: 'Noto Sans KR', sans-serif;
-  /* font-size: 26px; */
   font-size: 1.6em;
   font-weight: 500;
   padding: 40px 150px 0 0;
@@ -368,12 +366,12 @@ ul, li {
 }
 
 /* line ani */
-.lineani .outline {
+#mainInner .Mtxt .lineani .outline {
   overflow-y: hidden;
   display: block;
 }
 
-.lineani .underLine {
+#mainInner .Mtxt .lineani .underLine {
   animation-name: grow;
   animation-duration: 0.8s;
   width: 800px;
@@ -398,12 +396,18 @@ ul, li {
 #About {
   width: 100%;
   height: 780px;
+  position: relative;
+  display: block;
 }
 
 #About .aboutInner {
-  width: 1730px;
+  /* width: 1730px; */
+  width: 100%;
   height: 780px;
   margin: 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 #About .About_Mtext {
@@ -429,50 +433,59 @@ ul, li {
 }
 
 #About .about_me {
+  /* border: 1px solid red; */
   display: flex;
-  justify-content: space-between;
   margin-top: 280px;
 }
 
+/* 이름 */
 #About .about_me a {
   position: absolute;
-  margin: 20px 0 0 600px;
+  margin: 20px 0 0 670px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.6em;
   font-weight: 400;
 }
 
+/* 회사표기 */
 #About .about_me .meT {
   margin-top: 20px;
-  right: 350px;
+  left: 600px;
   position: relative;
 }
 
+/* 제목 */
 #About .about_me .meT p {
   font-size: 1.6em;
   color: #282828;
   font-weight: 500;
 }
 
+/* 직무상세 */
 #About .about_me .meT ul li>p {
   font-family: 'Noto Sans KR', sans-serif;
   letter-spacing: -1px;
   font-size: 1.2em;
 }
 
+/* 날짜 */
 #About .about_me .meT ul li>small {
   font-size: 1em;
 }
 
-#About .about_me img {
-  margin: -6px 0 0 200px;
-  width: 300px;
-  height: 300px;
+.about_me img.faceP {
+  margin: -40px 0 0 180px;
+  width: 350px;
+  height: 350px;
+}
+
+.about_me img.faceM {
+  display: none;
 }
 
 #About .about_me .tools {
   margin-top: 70px;
-  margin-left: 600px;
+  margin-left: 670px;
   position: absolute;
 }
 
@@ -501,7 +514,7 @@ ul, li {
 
 #About .about_me .skill {
   margin-top: 210px;
-  margin-left: 600px;
+  margin-left: 670px;
   position: absolute;
 }
 
@@ -513,17 +526,6 @@ ul, li {
 
 #About .about_me .skill ul li {
   display: inline-block;
-}
-
-
-.about_me img.faceP {
-  margin: -30px 0 0 250px;
-  width: 350px;
-  height: 350px;
-}
-
-.about_me img.faceM {
-  display: none;
 }
 
 
@@ -543,9 +545,12 @@ ul, li {
   height: 4400px;
 }
 
-.work_list {
+ul.work_list {
+  /* width: 1730px; */
   width: 100%;
-  max-width: 1730px;
+  position: relative;
+  display: block;
+  justify-content: space-evenly;
   left: 0;
   right: 0;
   margin: 0 auto;
@@ -753,7 +758,11 @@ ul, li {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 1730px;
+    /* width: 1730px; */
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-evenly;
     height: 1150px;
     margin: 0 auto;
   }
@@ -931,19 +940,22 @@ ul, li {
 footer {
   width: 100%;
   height: 600px;
-  /* background-color: #979797; */
   position: relative;
 }
 
 footer #footerInner {
-  width: 100%;
-  max-width: 1730px;
   /* width: 1730px; */
+  width: 100%;
   height: 600px;
   margin: 0 auto;
   position: relative;
+  display: flex;
+  justify-content: center;
 }
 
+.contact .contacttitle {
+  margin-right: 500px;
+}
 
 .contcatText {
   margin-top: 40px;
@@ -991,10 +1003,6 @@ footer #footerInner {
   text-transform: uppercase;
 }
 
-
-
-
-
 /* 스크롤 영역 내용이 넘치지 않도록 숨김 */
 .scroll_item {
   overflow: hidden;
@@ -1031,35 +1039,35 @@ footer #footerInner {
   }
 
   #mainInner {
-    height: 880px;
-    width: 100%;
+    width: 90%;
+    height: 780px;
   }
   
   .Mtxt {
-    width: 100%;
+    width: 90%;
     height: 780px;
   }
 
-  .maintitle .outText {
+  #mainInner .Mtxt .maintitle .outText {
     font-size: 10.7em;
     margin-left: 20px;
   }
 
-  .lineani .underLine {
+  #mainInner .Mtxt .lineani .underLine {
     width: 550px;
     height: 2px;
     margin-left: 2.3%;
   }
 
   /* rotate ani */
-  #mainInner .Mtxt h1 {
+  #mainInner .Mtxt h1.logo img {
   width: 203px;
   height: 203px;
   margin-left: 68%;
   margin-top: 7%;
 }
 
-.subtext .intext {
+#mainInner .Mtxt .subtext .intext {
     text-align: right;
     font-size: 1.2em;
     font-weight: 500;
@@ -1074,21 +1082,20 @@ footer #footerInner {
 }
 
 #About {
-  width: 990px;
+  width: 90%;
 }
 
 #About .aboutInner {
-  width: 900px;
-  max-width: 990px;
+  width: 90%;
   margin: 0 auto;
-}
-
-#About .About_Mtext {
-  margin-top: 40px;
 }
 
 #About h4 {
   margin: 0 0 0 60px;
+}
+
+#About .About_Mtext {
+  margin-top: 40px;
 }
 
 #About .About_Mtext p {
@@ -1096,7 +1103,7 @@ footer #footerInner {
 }
 
 #About .about_me {
-  width: 990px;
+  width: 90%;
 }
 
 #About .about_me img.faceP {
@@ -1113,6 +1120,7 @@ footer #footerInner {
 #About .about_me .tools {
   margin-top: -30px;
   margin-left: 450px;
+  display: block;
 }
 
 #About .about_me .tools p {
@@ -1140,7 +1148,7 @@ footer #footerInner {
 
 #About .about_me .meT {
   margin-top: 180px;
-  right: 255px;
+  left: 70px;
 }
 
 #About .about_me .meT p {
@@ -1155,13 +1163,11 @@ footer #footerInner {
 }
 
 #Ffitem {
-  /* width: 100%; */
-  width: 990px;
+  width: 100%;
 }
 
 .work_list {
-  width: 900px;
-  max-width: 990px;
+  width: 90%;
 }
 
 .Wlist_1,
@@ -1242,8 +1248,7 @@ footer #footerInner {
 .btn_effect {
   text-align: center;
   margin-top: 280px;
-  /* margin-left: 0; - 인터넷 창 줄인걸론 이게 비율 예쁨 */
-  margin-left: -40px; /* f12로 보면 이거 */
+  margin-left: -40px;
 }
 
 .work_list .Wlist_5 .btn_effect {
@@ -1269,12 +1274,8 @@ footer #footerInner {
 }
 
 .Wlist_Rmenu .Wlist_RmenuInner {
-  width: 990px;
+  width: 90%;
 }
-
-  .Wlist_RmenuInner {
-    width: 90%;
-  }
 
   .Wlist_R {
     max-width: 300px;
@@ -1326,7 +1327,7 @@ footer {
 }
 
 footer #footerInner {
-  width: 990px;
+  width: 90%;
   height: 560px;
 }
 
@@ -1365,12 +1366,6 @@ footer #footerInner {
   ================== */
 @media (max-width:760px) {
 
-  body {
-    width: 100%;
-    min-width: 760px;
-    /* max-width: 760px; */
-  }
-
   .cursor {
     display: none;
   }
@@ -1384,16 +1379,16 @@ footer #footerInner {
   #mainInner {
     justify-content: center;
     height: 500px;
-    /* height: 600px; */
-    width: 100%;
+    width: 90%;
+
   }
 
   .Mtxt {
-    width: 100%;
+    width: 90%;
     height: 600px;
   }
 
-  .maintitle .outText {
+  #mainInner .Mtxt .maintitle .outText {
     color: red;
     font-size: 4em;
     margin-left: 30px;
@@ -1404,14 +1399,14 @@ footer #footerInner {
     padding-top: 90px;
   }
 
-  .lineani .underLine {
+  #mainInner .Mtxt .lineani .underLine {
     width: 200px;
     height: 1.3px;
     margin-left: 7.6%;
   }
 
   /* rotate ani */
-  #mainInner .Mtxt h1 {
+  #mainInner .Mtxt h1.logo img {
   display: none;
   width: 103px;
   height: 103px;
@@ -1419,7 +1414,7 @@ footer #footerInner {
   margin-top: 10%;
 }
 
-.subtext .intext {
+#mainInner .Mtxt .subtext .intext {
   font-size: 0.8em;
   /* border: 1px solid red; */
   margin: 30px 110px 0 0;
@@ -1435,14 +1430,12 @@ footer #footerInner {
 }
 
 #About {
-  width: 760px;
-  max-width: 760px;
+  width: 90%;
   height: 680px;
 }
 
 #About .aboutInner {
-  width: 760px;  
-  max-width: 760px;
+  width: 90%;
   height: 680px;
 }
 
@@ -1523,7 +1516,7 @@ footer #footerInner {
 }
 
 .work_list {
-  width: 100%;
+  width: 90%;
   max-width: 760px;
 }
 
@@ -1657,7 +1650,7 @@ footer #footerInner {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 100%;
+    width: 90%;
     max-width: 760px;
   }
   
@@ -1736,7 +1729,8 @@ footer {
 }
 
 footer #footerInner {
-  width: 760px;
+  /* width: 760px; */
+  width: 90%;
   height: 400px;
 }
 
