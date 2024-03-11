@@ -29,7 +29,6 @@ html, body {
 }
 
 #wrap {
-  height: 100%;
   width: 100%;
   background-color: #ebebe8;
 }
@@ -252,9 +251,8 @@ ul, li {
 }
 
 .Mtxt {
-  /* position: relative; */
   margin: 0 auto;
-  /* width: 1920px; */
+  width: 1920px;
   width: 100%;
   height: 1080px;
 }
@@ -373,11 +371,11 @@ ul, li {
 #mainInner .Mtxt .lineani .underLine {
   animation-name: grow;
   animation-duration: 0.8s;
-  width: 800px;
+  width: 770px;
   height: 2.3px;
   background: #282828;
-  margin-top: 1%;
-  margin-left: 5.5%;
+  margin-top: 10px;
+  margin-left: 100px;
 }
 
 
@@ -400,8 +398,8 @@ ul, li {
 }
 
 #About .aboutInner {
-  /* width: 1730px; */
-  width: 100%;
+  width: 1730px;
+  /* width: 100%; */
   height: 780px;
   margin: 0 auto;
   position: relative;
@@ -544,8 +542,8 @@ ul, li {
 }
 
 ul.work_list {
-  /* width: 1730px; */
-  width: 100%;
+  width: 1730px;
+  /* width: 100%; */
   position: relative;
   display: block;
   justify-content: space-evenly;
@@ -559,7 +557,7 @@ ul.work_list {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  width: 100%;
+  /* width: 100%; */
   height: 860px;
   display: flex;
   justify-content: center;
@@ -756,8 +754,8 @@ ul.work_list {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    /* width: 1730px; */
-    width: 100%;
+    width: 1730px;
+    /* width: 100%; */
     position: relative;
     display: flex;
     justify-content: space-evenly;
@@ -943,8 +941,8 @@ footer {
 }
 
 footer #footerInner {
-  /* width: 1730px; */
-  width: 100%;
+  width: 1730px;
+  /* width: 100%; */
   height: 600px;
   margin: 0 auto;
   position: relative;
@@ -1024,11 +1022,11 @@ footer #footerInner {
 }
 
 
-/* ===========================
-          타블렛 tablet
-  =========================== */
-@media (max-width: 990px) {
+/* ======================
+      타블렛 tablet
+======================*/
 
+@media (max-width: 990px) {
   .cursor {
     display: none;
   }
@@ -1038,8 +1036,7 @@ footer #footerInner {
   }
 
   #mainInner {
-    width: 100%;
-    height: 780px;
+    height: 880px;
   }
   
   .Mtxt {
@@ -1055,118 +1052,102 @@ footer #footerInner {
   #mainInner .Mtxt .lineani .underLine {
     width: 550px;
     height: 2px;
-    margin-left: 2.3%;
+    margin-left: 25px;
   }
 
   /* rotate ani */
   #mainInner .Mtxt h1.logo img {
-  width: 203px;
-  height: 203px;
-  margin-left: 68%;
-  margin-top: 7%;
-}
-
-#mainInner .Mtxt .subtext .intext {
-    text-align: right;
-    font-size: 1.2em;
-    font-weight: 500;
-    padding: 50px 20px 0 0;
-    letter-spacing: -1px;
+    width: 203px;
+    height: 203px;
+    margin-left: 68%;
+    margin-top: 7%;
   }
-/* main END */
+  
+  #mainInner .Mtxt .subtext .intext {
+      text-align: right;
+      font-size: 1.2em;
+      font-weight: 500;
+      padding: 50px 90px 0 0;
+      letter-spacing: -1px;
+    }
+  /* main END */
 
-/* About me start */
-.Tline_1 {
-  width: 870px;
-}
+  /* About me start */
+  .Tline_1 {
+    width: 870px;
+  }
 
-#About {
-  width: 90%;
-}
+  #About .aboutInner {
+    width: 90%;
+  }
 
-#About .aboutInner {
-  width: 90%;
-  margin: 0 auto;
-}
+  #About .About_Mtext {
+    margin-top: 40px;
+  }
+  
+  #About h4 {
+    margin: 0 0 0 60px;
+  }
+  
+  #About .About_Mtext p {
+    margin: 10px 0 0 60px;
+  }
 
-#About h4 {
-  margin: 0 0 0 60px;
-}
+  #About .about_me img.faceP {
+    margin: -80px 0 0 80px;
+    width: 300px;
+    height: 300px;
+  }
+  
+  #About .about_me a {
+    margin: -50px 0 0 450px;
+    font-size: 1.3em;
+  }
+  
+  #About .about_me .tools {
+    margin-top: -30px;
+    margin-left: 450px;
+  }
+  
+  #About .about_me .tools p {
+    font-size: 1.4em;
+  }
+  
+  #About .about_me .tools ul li img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  #About .about_me .skill {
+    margin-top: 100px;
+    margin-left: 450px;
+  }
+  
+  #About .about_me .skill ul li img {
+    height: 30px;
+    width: 30px;
+  }
+  
+  #About .about_me .skill p {
+    font-size: 1.4em;
+  }
+  
+  #About .about_me .meT {
+    margin-top: 180px;
+    left: 70px;
+  }
+  
+  #About .about_me .meT p {
+    font-size: 1.3em;
+  }
+  /* About me END */
 
-#About .About_Mtext {
-  margin-top: 40px;
-}
-
-#About .About_Mtext p {
-  margin: 10px 0 0 60px;
-}
-
-#About .about_me {
-  width: 90%;
-}
-
-#About .about_me img.faceP {
-  margin: -80px 0 0 80px;
-  width: 300px;
-  height: 300px;
-}
-
-#About .about_me a {
-  margin: -50px 0 0 450px;
-  font-size: 1.3em;
-}
-
-#About .about_me .tools {
-  margin-top: -30px;
-  margin-left: 450px;
-  display: block;
-  white-space: nowrap;
-}
-
-#About .about_me .tools p {
-  font-size: 1.4em;
-}
-
-#About .about_me .tools ul li img {
-  height: 30px;
-  width: 30px;
-}
-
-#About .about_me .skill {
-  margin-top: 100px;
-  margin-left: 450px;
-}
-
-#About .about_me .skill ul li img {
-  height: 30px;
-  width: 30px;
-}
-
-#About .about_me .skill p {
-  font-size: 1.4em;
-}
-
-#About .about_me .meT {
-  margin-top: 180px;
-  left: 70px;
-}
-
-#About .about_me .meT p {
-  font-size: 1.3em;
-}
-/* About me END */
-
-
-/* work list start */
+  /* work list start */
 .Tline_2 {
   width: 870px;
 }
 
-#Ffitem {
-  width: 100%;
-}
-
-.work_list {
+ul.work_list {
   width: 90%;
 }
 
@@ -1175,7 +1156,7 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  max-width: 990px;
+  /* max-width: 990px; */
   height: 990px;
 }
 
@@ -1265,18 +1246,18 @@ footer #footerInner {
 /* ====================================
     포트폴리오 사각 영역 (more view)
   ==================================== */
-.Tline_3 {
-  width: 870px;
+  .Tline_3 {
+    width: 870px;
+    }
+    
+  .Wlist_Rmenu {
+    margin-top: 550px;
   }
   
-.Wlist_Rmenu {
-  margin-top: 550px;
-}
-
-.Wlist_Rmenu .Wlist_RmenuInner {
-  width: 90%;
-}
-
+  .Wlist_Rmenu .Wlist_RmenuInner {
+    width: 90%;
+  }
+  
   .Wlist_R {
     max-width: 300px;
     max-height: 400px;
@@ -1317,7 +1298,7 @@ footer #footerInner {
     font-size: 14px;
     font-weight: bold;
   }
-  /* 포트폴리오 사각 영역 (more view) END */
+/* 포트폴리오 사각 영역 (more view) END */
 
 /* =====================
         footer
@@ -1340,6 +1321,7 @@ footer #footerInner {
   font-size: 5em;
 }
 
+/* 이메일 / 전화번호 박스*/
 .contcatText {
   margin: 40px 0 0 30px;
 }
@@ -1357,19 +1339,13 @@ footer #footerInner {
   margin: 50px 50px 0 0;
   font-size: 1.4em;
 }
-
-
 }
 
-/* ==================
+/* ======================
       모바일 mobile
-  ================== */
-@media (max-width:760px) {
+======================*/
 
-  #wrap {
-    min-width: 760px;
-  }
-
+@media(max-width:760px) {
   .cursor {
     display: none;
   }
@@ -1381,33 +1357,27 @@ footer #footerInner {
   }
 
   #mainInner {
-    justify-content: center;
     height: 500px;
-    width: 90%;
-
   }
 
   .Mtxt {
-    width: 90%;
-    /* max-width: 760px; */
-    height: 600px;
+    height: 500px;
   }
-
   #mainInner .Mtxt .maintitle .outText {
     color: blue;
-    font-size: 4em;
+    font-size: 5em;
     margin-left: 30px;
     letter-spacing: -1px;
   }
 
-  .maintitle .outText:first-child {
-    padding-top: 90px;
+  #mainInner .Mtxt .lineani .underLine {
+    width: 250px;
+    height: 1.3px;
+    margin-left: 30px;
   }
 
-  #mainInner .Mtxt .lineani .underLine {
-    width: 200px;
-    height: 1.3px;
-    margin-left: 7.6%;
+  #mainInner .Mtxt .maintitle .outText:first-child {
+    padding-top: 90px;
   }
 
   /* rotate ani */
@@ -1419,353 +1389,11 @@ footer #footerInner {
   margin-top: 10%;
 }
 
-#mainInner .Mtxt .subtext .intext {
+#mainInner .Mtxt .subtext .intext  {
   font-size: 0.8em;
   margin: 30px 110px 0 0;
   padding: 0 0 0 0;
 }
 /* main END */
-
-/* About me start */
-.Tline_1 {
-  width: 280px;
-  height: 1.3px;
-  margin: 0 0 0 20px;
-}
-
-#About {
-  width: 90%;
-  height: 680px;
-}
-
-#About .aboutInner {
-  width: 90%;
-  height: 680px;
-}
-
-#About h4 {
-  margin: -20px 0 0 30px;
-  font-size: 35px;
-}
-
-#About .About_Mtext p {
-  margin: 5px 0 0 30px;
-  font-size: 0.8em;
-}
-
-#About .about_me img.faceP {
-  display: none;
-}
-
-#About .about_me img.faceM {
-  display: block;
-  margin: -125px 0 0 20px;
-  width: 160px;
-  height: 360px;
-  object-fit: cover;
-}
-
-#About .about_me a {
-  margin: -130px 0 0 200px;
-  font-size: 1em;
-  letter-spacing: -1px;
-}
-
-#About .about_me .tools {
-  width: 130px;
-  font-size: 0.7em;
-  margin-top: -140px;
-  margin-left: 200px;
-  white-space: normal;
-}
-#About .about_me .tools ul li img {
-  height: 20px;
-  width: 20px;
-}
-#About .about_me .skill {
-  font-size: 0.7em;
-  margin-top: 0px;
-  margin-left: 200px;
-}
-#About .about_me .skill ul li img {
-  height: 20px;
-  width: 20px;
-}
-
-#About .about_me .meT {
-  margin-right: 172px;
-  margin-top: 60px;
-  white-space: nowrap;
-}
-
-#About .about_me .meT p {
-  font-size: 0.9em;
-  margin-left: -50px;
-}
-
-#About .about_me .meT ul li>p {
-  font-size: 0.6em;
-  margin-left: -50px;
-}
-
-#About .about_me .meT ul li>small {
-  font-size: 0.8em;
-  margin-left: -50px;
-}
-/* About me END */
-
-/* work list start */
-#Ffitem {
-  width: 100%;
-}
-
-.work_list {
-  width: 90%;
-  max-width: 760px;
-}
-
-.Wlist_1,
-.Wlist_2,
-.Wlist_3,
-.Wlist_4,
-.Wlist_5 {
-  max-width: 760px;
-  height: 960px;
-}
-
-.Wlist_1 .img_text,
-.Wlist_2 .img_text,
-.Wlist_3 .img_text,
-.Wlist_4 .img_text,
-.Wlist_5 .img_text {
-  display: contents;
-}
-
-.Tline_2 {
-  width: 280px;
-  height: 1.3px;
-  margin: 0 0 0 -20px;
-}
-
-/* 목차 */
-.Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
-  margin: 20px 0 0 0px;
-}
-/* 웹 종류 설명 */
-.Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
-  font-size: 18px;
-  padding-left: 0px;
-}
-/* 사이트 이름 */
-.Wlist_1 .Htext a, .Wlist_2 .Htext a, .Wlist_3 .Htext a, .Wlist_4 .Htext a, .Wlist_5 .Htext a {
-  font-size: 40px;
-  margin-left: 0px;
-}
-
-/* 목업 이미지 */
-.Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
-  width: 290px;
-  height: 238px;
-  margin: 30px 0 0 0px;
-}
-.Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
-  margin-left: 0;
-}
-
-/* 설명텍스트 */
-.work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
-  margin-top: 320px;
-  margin-left: 40px;
-  font-size: 15px;
-}
-
-.work_list .Wlist_1 .img_text p>u,
-.work_list .Wlist_2 .img_text p>u,
-.work_list .Wlist_3 .img_text p>u,
-.work_list .Wlist_4 .img_text p>u,
-.work_list .Wlist_5 .img_text p>u {
-  font-size: 15px;
-}
-
-.work_list .Wlist_1 .img_text p>span,
-.work_list .Wlist_2 .img_text p>span,
-.work_list .Wlist_3 .img_text p>span,
-.work_list .Wlist_4 .img_text p>span,
-.work_list .Wlist_5 .img_text p>span {
-  font-size: 13px;
-}
-
-/* 설명텍스트 위치조절 */
-.work_list .Wlist_1 .img_text p {
-  left: -1%;
-  width: 240px;
-}
-.work_list .Wlist_2 .img_text p {
-  left: 10px;
-  width: 200px;
-}
-.work_list .Wlist_3 .img_text p {
-  left: -10px;
-}
-.work_list .Wlist_4 .img_text p {
-  left: -30px;
-  width: 290px;
-}
-
-.btn_effect {
-  text-align: center;
-  margin-top: 350px;
-  margin-left: 20px;
-}
-
-.work_list .Wlist_3 .btn_effect,
-.work_list .Wlist_4 .btn_effect {
-  margin-top: 300px;
-}
-
-.work_list .Wlist_5 .btn_effect {
-    margin-top: 340px;
-    margin-left: 40px;
-}
-
-.work_list .Wlist_5 .img_text p {
-  left: -40px;
-  width: 330px;
-}
-
-.btn_effect a {
-  padding: 0;
-  margin-right: 30px;
-}
-/* work list END */
-
-/* ====================================
-    포트폴리오 사각 영역 (more view)
-  ==================================== */
-  .Tline_3 {
-    width: 280px;
-    height: 1.3px;
-    margin: 0 0 0 -60px;
-    }
-
-  .Wlist_Rmenu {
-    height: 1850px;
-    margin-top: 300px;
-  }
-  
-  .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 90%;
-    max-width: 760px;
-  }
-  
-    .Wlist_R {
-      margin-top: -40px;
-      max-width: 350px;
-      max-height: 200px;
-      margin-bottom: 45px;
-    }
-
-    #Wlist_T,
-    #Wlist_B {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    #Wlist_B {
-      margin-top: 920px;
-    }
-  
-    .Wlist_Rmenu span {
-      margin: 20px 0 0 -40px;
-      font-size: 40px;
-    }
-  
-    #Wlist_T .Wlist_R:nth-child(1),
-    #Wlist_T .Wlist_R:nth-child(4),
-    #Wlist_B .Wlist_R:nth-child(1),
-    #Wlist_B .Wlist_R:nth-child(4)
-     {
-      margin-right: 0;
-      margin-left: 0;
-    }
-  
-    .Wlist_R img {
-      width: 350px;
-      height: 200px;
-      object-fit: cover;
-      object-position: 0 0px;
-    }
-  
-    .Wlist_R h6 {
-      font-size: 12px;
-      line-height: 30px;
-      padding: 0 15px;
-      letter-spacing: -1px;
-    }
-  
-    .Wlist_R p {
-      font-size: 12px;
-      font-weight: bold;
-      margin-top: 20px;
-      word-break:break-all;
-      max-width: 100px;
-    }
-
-    .Wlist_R .circle {
-      position: relative;
-      height: 30px;
-      width: 30px;
-      top: 0;
-      left: 0;
-      background-color: rgba(0, 0, 0, 0.4);
-      border-radius: 50%;
-      text-align: center;
-    }
-    /* 포트폴리오 사각 영역 (more view) END */
-
-/* =====================
-        footer
-=====================*/
-footer {
-  width: 100%;
-  height: 400px;
-  white-space: nowrap;
-}
-
-footer #footerInner {
-  /* width: 760px; */
-  width: 90%;
-  height: 400px;
-}
-
-.contact .contacttitle .Fintext {
-  margin-left: 30px;
-  font-size: 3em;
-  letter-spacing: -1.3px;
-}
-
-.contact .contacttitle .Fintext:last-child {
-  font-size: 2.3em;
-}
-
-.contcatText {
-  margin: 40px 0 0 40px;
-}
-
-.contact .contcatText a {
-  margin-right: 20px;
-  font-size: 1em;
-}
-
-#footerInner .Lcopylight {
-  margin: 0px 0 0 39px;
-  font-size: 0.8em;
-}
-
-#footerInner .Rcopylight {
-  margin: 50px 0px 0 0;
-  font-size: 0.9em;
-} 
 
 }
