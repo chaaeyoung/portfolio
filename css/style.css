@@ -435,24 +435,22 @@ ul, li {
   margin-top: 280px;
 }
 
+#About .about_me img.faceP {
+  margin: -30px 0 0 250px;
+  width: 350px;
+  height: 350px;
+}
+
+#About .about_me img.faceM {
+  display: none;
+}
+
 #About .about_me a {
   position: absolute;
-  margin: 20px 0 0 600px;
+  margin: 20px 0 0 720px;
   font-family: 'Noto Sans KR', sans-serif;
   font-size: 1.6em;
   font-weight: 400;
-}
-
-#About .about_me .meT {
-  margin-top: 20px;
-  right: 350px;
-  position: relative;
-}
-
-#About .about_me .meT p {
-  font-size: 1.6em;
-  color: #282828;
-  font-weight: 500;
 }
 
 #About .about_me .meT ul li>p {
@@ -465,19 +463,9 @@ ul, li {
   font-size: 1em;
 }
 
-#About .about_me img.faceP {
-  margin: -30px 0 0 130px;
-  width: 350px;
-  height: 350px;
-}
-
-#About .about_me img.faceM {
-  display: none;
-}
-
 #About .about_me .tools {
   margin-top: 70px;
-  margin-left: 600px;
+  margin-left: 720px;
   position: absolute;
 }
 
@@ -506,7 +494,7 @@ ul, li {
 
 #About .about_me .skill {
   margin-top: 210px;
-  margin-left: 600px;
+  margin-left: 720px;
   position: absolute;
 }
 
@@ -518,6 +506,18 @@ ul, li {
 
 #About .about_me .skill ul li {
   display: inline-block;
+}
+
+#About .about_me .meT p {
+  font-size: 1.6em;
+  color: #282828;
+  font-weight: 500;
+}
+/* 날짜 */
+#About .about_me .meT {
+  margin-top: 20px;
+  right: 240px;
+  position: relative;
 }
 
 
@@ -1382,7 +1382,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    color: red;
+    color: blue;
     margin-left: 30px;
     letter-spacing: -1px;
   }
@@ -1640,7 +1640,7 @@ footer #footerInner {
   
     .Wlist_R {
       margin-top: -40px;
-      max-width: 400px;
+      max-width: 350px;
       max-height: 200px;
       margin-bottom: 45px;
     }
@@ -1661,25 +1661,20 @@ footer #footerInner {
       font-size: 40px;
     }
   
-    #Wlist_T .Wlist_R:nth-child(1) {
-      margin-left: 0;
-      /* margin-bottom: 45px; */
-    }
-    #Wlist_T .Wlist_R:nth-child(4) {
+    #Wlist_T .Wlist_R:nth-child(1),
+    #Wlist_T .Wlist_R:nth-child(4),
+    #Wlist_B .Wlist_R:nth-child(1),
+    #Wlist_B .Wlist_R:nth-child(4)
+     {
       margin-right: 0;
-    }
-    #Wlist_B .Wlist_R:nth-child(1) {
       margin-left: 0;
-    }
-    #Wlist_B .Wlist_R:nth-child(4) {
-      margin-right: 0;
     }
   
     .Wlist_R img {
-      width: 400px;
+      width: 350px;
       height: 200px;
       object-fit: cover;
-      object-position: 0 -20px;
+      object-position: 0 0px;
     }
   
     .Wlist_R h6 {
@@ -1746,9 +1741,9 @@ footer #footerInner {
 }
 
 #footerInner .Rcopylight {
-  /* margin: 50px 50px 0 0; */
-  margin: 50px 340px 0 0;
-  font-size: 1.1em;
+  /* border: 1px solid red; */
+  margin: 50px 450px 0 0;
+  font-size: 0.9em;
 } 
 
 }
