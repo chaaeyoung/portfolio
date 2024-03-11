@@ -1367,6 +1367,8 @@ footer #footerInner {
 
   #toggle {
     margin-right: -5px;
+    width: 25px;
+    height: 21px;
   }
 
   #mainInner {
@@ -1382,7 +1384,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    color: blue;
+    color: rebeccapurple;
     margin-left: 30px;
     letter-spacing: -1px;
   }
@@ -1741,8 +1743,7 @@ footer #footerInner {
 }
 
 #footerInner .Rcopylight {
-  /* border: 1px solid red; */
-  margin: 50px 450px 0 0;
+  margin: 50px 400px 0 0;
   font-size: 0.9em;
 } 
 
