@@ -1377,7 +1377,8 @@ footer #footerInner {
 
   #mainInner {
     justify-content: center;
-    height: 600px;
+    height: 500px;
+    /* height: 600px; */
     width: 100%;
   }
 
@@ -1387,7 +1388,7 @@ footer #footerInner {
   }
 
   .maintitle .outText {
-    color: bisque;
+    color: red;
     font-size: 4em;
     margin-left: 30px;
     letter-spacing: -1px;
@@ -1405,15 +1406,18 @@ footer #footerInner {
 
   /* rotate ani */
   #mainInner .Mtxt h1 {
+    display: none;
   width: 103px;
   height: 103px;
   margin-left: 50%;
-  margin-top: 20%;
+  margin-top: 10%;
 }
 
 .subtext .intext {
   font-size: 0.8em;
-  padding: 30px 55px 0 0;
+  /* border: 1px solid red; */
+  margin: 30px 115px 0 0;
+  padding: 0 0 0 0;
 }
 /* main END */
 
@@ -1485,7 +1489,7 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  margin-right: 170px;
+  margin-right: 172px;
   margin-top: 60px;
 }
 
@@ -1623,7 +1627,6 @@ footer #footerInner {
 
 .work_list .Wlist_5 .img_text p {
   left: -40px;
-  /* width: 290px; */
   width: 330px;
 }
 
@@ -1644,6 +1647,7 @@ footer #footerInner {
 
   .Wlist_Rmenu {
     height: 1850px;
+    margin-top: 300px;
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
