@@ -465,10 +465,14 @@ ul, li {
   font-size: 1em;
 }
 
-#About .about_me img {
+#About .about_me img.faceP {
   margin: -30px 0 0 130px;
   width: 350px;
   height: 350px;
+}
+
+#About .about_me img.faceM {
+  display: none;
 }
 
 #About .about_me .tools {
@@ -1093,7 +1097,7 @@ footer #footerInner {
   width: 990px;
 }
 
-#About .about_me img {
+#About .about_me img.faceP {
   margin: -80px 0 0 80px;
   width: 300px;
   height: 300px;
@@ -1380,13 +1384,13 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    color: blue;
+    color: red;
     margin-left: 30px;
     letter-spacing: -1px;
   }
 
   .maintitle .outText:first-child {
-    padding-top: 120px;
+    padding-top: 90px;
   }
 
   .lineani .underLine {
@@ -1437,10 +1441,16 @@ footer #footerInner {
   font-size: 0.8em;
 }
 
-#About .about_me img {
-  margin: -150px 0 0 20px;
-  width: 150px;
-  height: 150px;
+#About .about_me img.faceP {
+  display: none;
+}
+
+#About .about_me img.faceM {
+  display: block;
+  margin: -125px 0 0 20px;
+  width: 160px;
+  height: 300px;
+  object-fit: cover;
 }
 
 #About .about_me a {
@@ -1555,7 +1565,6 @@ footer #footerInner {
 
 /* 설명텍스트 */
 .work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
-  /* border: 1px solid red; */
   margin-top: 320px;
   margin-left: 40px;
   font-size: 15px;
