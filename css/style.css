@@ -1387,7 +1387,7 @@ footer #footerInner {
   }
 
   .maintitle .outText {
-    color: red;
+    color: blue;
     font-size: 4em;
     margin-left: 30px;
     letter-spacing: -1px;
@@ -1487,9 +1487,10 @@ footer #footerInner {
 
 #About .about_me .meT {
   /* border: 1px solid red; */
-  left: 0;
-  right: 0;
-  transform: translate(-307%,0);
+  /* margin-right: 200px; */
+  margin-right: 165px;
+  /* margin-right: 300px; */
+  /* transform: translate(-307%,0); */
   margin-top: 60px;
 }
 
