@@ -254,7 +254,8 @@ ul, li {
 .Mtxt {
   /* position: relative; */
   margin: 0 auto;
-  width: 1920px;
+  /* width: 1920px; */
+  width: 100%;
   height: 1080px;
 }
 
@@ -938,6 +939,7 @@ footer {
   width: 100%;
   height: 600px;
   position: relative;
+  white-space: nowrap;
 }
 
 footer #footerInner {
@@ -1036,7 +1038,7 @@ footer #footerInner {
   }
 
   #mainInner {
-    width: 90%;
+    width: 100%;
     height: 780px;
   }
   
@@ -1364,6 +1366,10 @@ footer #footerInner {
   ================== */
 @media (max-width:760px) {
 
+  #wrap {
+    min-width: 760px;
+  }
+
   .cursor {
     display: none;
   }
@@ -1383,6 +1389,7 @@ footer #footerInner {
 
   .Mtxt {
     width: 90%;
+    /* max-width: 760px; */
     height: 600px;
   }
 
@@ -1486,17 +1493,10 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  /* margin-right: 172px; */
-  /* border: 1px solid red; */
   margin-right: 172px;
   margin-top: 60px;
   white-space: nowrap;
 }
-
-/* #About .about_me {
-  width: 100%;
-  max-width: 760px;
-} */
 
 #About .about_me .meT p {
   font-size: 0.9em;
