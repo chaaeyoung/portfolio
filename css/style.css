@@ -1461,7 +1461,7 @@ footer #footerInner {
 
 #About .about_me .tools {
   width: 130px;
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin-top: -140px;
   margin-left: 200px;
 }
@@ -1470,7 +1470,7 @@ footer #footerInner {
   width: 20px;
 }
 #About .about_me .skill {
-  font-size: 0.8em;
+  font-size: 0.7em;
   margin-top: 0px;
   margin-left: 200px;
 }
@@ -1606,6 +1606,11 @@ footer #footerInner {
   margin-left: 20px;
 }
 
+.work_list .Wlist_3 .btn_effect,
+.work_list .Wlist_4 .btn_effect {
+  margin-top: 300px;
+}
+
 .work_list .Wlist_5 .btn_effect {
     margin-top: 380px;
     margin-left: 40px;
@@ -1722,6 +1727,7 @@ footer #footerInner {
 .contact .contacttitle .Fintext {
   margin-left: 30px;
   font-size: 3em;
+  letter-spacing: -1.3px;
 }
 
 .contact .contacttitle .Fintext:last-child {
