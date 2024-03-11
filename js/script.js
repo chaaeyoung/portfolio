@@ -56,7 +56,7 @@ $(function () {
                     $el.addClass('active');
                 }
                 // 요소가 화면에서 완전히 사라졌을 때 처리합니다.
-                if (loop && (rect.bottom <= -800 || rect.top >= window.innerHeight)) {
+                if (loop && (rect.bottom <= -1300 || rect.top >= window.innerHeight)) {
                     // 윗부분 -800 원래 수치 0
                     $el.removeClass('active');
                 }
