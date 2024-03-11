@@ -1384,7 +1384,7 @@ footer #footerInner {
 
   .maintitle .outText {
     font-size: 4em;
-    color: rebeccapurple;
+    /* color: rebeccapurple; */
     margin-left: 30px;
     letter-spacing: -1px;
   }
@@ -1449,7 +1449,7 @@ footer #footerInner {
   display: block;
   margin: -125px 0 0 20px;
   width: 160px;
-  height: 300px;
+  height: 360px;
   object-fit: cover;
 }
 
