@@ -252,8 +252,7 @@ ul, li {
 
 .Mtxt {
   margin: 0 auto;
-  width: 1920px;
-  width: 100%;
+  width: 1670px;
   height: 1080px;
 }
 
@@ -261,8 +260,8 @@ ul, li {
 #mainInner .Mtxt h1.logo img {
   width: 263px;
   height: 263px;
-  margin-left: 75%;
-  margin-top: -2%;
+  margin-left: 1250px;
+  margin-top: 10px;
   animation: rotate_image 12s linear infinite;
   transform-origin: 50% 50%;
   overflow-y: hidden;
@@ -398,8 +397,7 @@ ul, li {
 }
 
 #About .aboutInner {
-  width: 1730px;
-  /* width: 100%; */
+  width: 1670px;
   height: 780px;
   margin: 0 auto;
   position: relative;
@@ -542,13 +540,10 @@ ul, li {
 }
 
 ul.work_list {
-  width: 1730px;
-  /* width: 100%; */
-  position: relative;
+  width: 1670px;
+  /* position: relative;
   display: block;
-  justify-content: space-evenly;
-  left: 0;
-  right: 0;
+  justify-content: space-evenly; */
   margin: 0 auto;
 }
 
@@ -557,7 +552,7 @@ ul.work_list {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  /* width: 100%; */
+  width: 1670px;
   height: 860px;
   display: flex;
   justify-content: center;
@@ -754,11 +749,10 @@ ul.work_list {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 1730px;
-    /* width: 100%; */
-    position: relative;
-    display: flex;
-    justify-content: space-evenly;
+    width: 1670px;
+    /* position: relative; */
+    /* display: flex; */
+    /* justify-content: space-evenly; */
     height: 1150px;
     margin: 0 auto;
   }
@@ -941,13 +935,12 @@ footer {
 }
 
 footer #footerInner {
-  width: 1730px;
-  /* width: 100%; */
+  width: 1670px;
   height: 600px;
   margin: 0 auto;
-  position: relative;
+  /* position: relative;
   display: flex;
-  justify-content: center;
+  justify-content: center; */
 }
 
 .contact .contacttitle {
@@ -1036,12 +1029,15 @@ footer #footerInner {
   }
 
   #mainInner {
+    /* width: 90%; */
     height: 880px;
   }
   
   .Mtxt {
-    width: 90%;
-    height: 780px;
+    /* width: 90%; */
+    /* width: 100%; */
+    height: 880px;
+    /* border: 1px solid red; */
   }
 
   #mainInner .Mtxt .maintitle .outText {
@@ -1059,15 +1055,15 @@ footer #footerInner {
   #mainInner .Mtxt h1.logo img {
     width: 203px;
     height: 203px;
-    margin-left: 68%;
-    margin-top: 7%;
+    margin-left: 600px;
+    margin-top: 20px;
   }
   
   #mainInner .Mtxt .subtext .intext {
       text-align: right;
       font-size: 1.2em;
       font-weight: 500;
-      padding: 50px 90px 0 0;
+      padding: 50px 800px 0 0px;
       letter-spacing: -1px;
     }
   /* main END */
@@ -1077,8 +1073,14 @@ footer #footerInner {
     width: 870px;
   }
 
-  #About .aboutInner {
+  #About {
     width: 90%;
+    margin: 0 auto;
+  }
+
+  #About .aboutInner {
+    /* border: 1px solid red; */
+    width: 100%;
   }
 
   #About .About_Mtext {
@@ -1156,7 +1158,7 @@ ul.work_list {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  /* max-width: 990px; */
+  width: 100%;
   height: 990px;
 }
 
@@ -1247,15 +1249,18 @@ ul.work_list {
     포트폴리오 사각 영역 (more view)
   ==================================== */
   .Tline_3 {
-    width: 870px;
+    width: 860px;
     }
     
   .Wlist_Rmenu {
+    margin-top: 560px;
+    width: 90%;
+    margin: 0 auto;
     margin-top: 550px;
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    width: 90%;
+    width: 100%;
   }
   
   .Wlist_R {
@@ -1305,10 +1310,12 @@ ul.work_list {
 =====================*/
 footer {
   height: 560px;
+  width: 90%;
+  margin: 0 auto;
 }
 
 footer #footerInner {
-  width: 90%;
+  width: 100%;
   height: 560px;
 }
 
