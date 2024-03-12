@@ -295,8 +295,12 @@ ul, li {
   padding-top: 70px;
 }
 
+#mainInner .Mtxt .maintitle .outText:nth-child(1) .intext {
+  letter-spacing: -9px;
+}
+
 #mainInner .Mtxt .maintitle .outText:nth-child(2) .intext {
-  letter-spacing: -3.5px;
+  letter-spacing: -10px;
 }
 
 #mainInner .Mtxt .maintitle .outText:nth-child(3) .intext {
@@ -1052,7 +1056,14 @@ footer #footerInner {
       font-size: 1.2em;
       font-weight: 500;
       padding: 40px 860px 0 0px;
-      letter-spacing: -1px;
+    }
+
+    #mainInner .Mtxt .maintitle .outText:nth-child(1) .intext {
+      letter-spacing: -4px;
+    }
+    
+    #mainInner .Mtxt .maintitle .outText:nth-child(2) .intext {
+      letter-spacing: -8px;
     }
   /* main END */
 
@@ -1364,8 +1375,8 @@ footer #footerInner {
     width: 100%;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
-    font-size: 4.7em;
+    color: blue;
+    font-size: 4.5em;
     margin: 0 auto;
   }
 
@@ -1379,10 +1390,17 @@ footer #footerInner {
     font-size: 0.8em;
     letter-spacing: -1px;
     margin: 0 auto;
-    margin-right: 40px;
+    margin-right: 30px;
     margin-top: 160px;
-    /* margin-top: 60px; */
     padding: 0;
+  }
+
+  #mainInner .Mtxt .maintitle .outText:nth-child(1) .intext {
+    letter-spacing: -2px;
+  }
+  
+  #mainInner .Mtxt .maintitle .outText:nth-child(2) .intext {
+    letter-spacing: -3px;
   }
 
   #mainInner .Mtxt h1.logo img {
@@ -1491,11 +1509,10 @@ footer #footerInner {
 
 /* work list start */
 .Tline_2 {
-  position: absolute; /* 추가 */
-  width: 270px;
+  width: 340px;
   height: 1.3px;
-  /* margin: 0; */
-  margin-left: -14.5%;
+  margin: 0;
+  /* margin-left: -14.5%; */
 }
 
 #Ffitem {
@@ -1625,23 +1642,22 @@ footer #footerInner {
     포트폴리오 사각 영역 (more view)
   ==================================== */
   .Tline_3 {
-    /* position: absolute; */
-    width: 270px;
+    width: 340px;
     height: 1.3px;
-    /* margin: 0; */
-    margin-left: -14.5%;
+    margin: 0 auto;
     }
 
   .Wlist_Rmenu {
-    width: 100%;
+    width: 90%;
     height: 1850px;
     margin-top: 260px;
+    /* border: 1px solid red; */
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
     /* border: 1px solid red; */
     height: 2000px;
-    width: 90%;
+    width: 100%;
   }
   
     .Wlist_R {
