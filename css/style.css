@@ -544,9 +544,6 @@ ul, li {
 
 ul.work_list {
   width: 1670px;
-  /* position: relative;
-  display: block;
-  justify-content: space-evenly; */
   margin: 0 auto;
 }
 
@@ -941,9 +938,6 @@ footer #footerInner {
   width: 1670px;
   height: 600px;
   margin: 0 auto;
-  /* position: relative;
-  display: flex;
-  justify-content: center; */
 }
 
 .contact .contacttitle {
@@ -1154,7 +1148,7 @@ footer #footerInner {
 }
 
 ul.work_list {
-  width: 90%;
+  width: 100%;
 }
 
 .Wlist_1,
@@ -1376,10 +1370,10 @@ footer #footerInner {
   .Mtxt {
     height: 500px;
     width: 100%;
-    border: 1px solid red;
+    /* border: 1px solid red; */
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blueviolet;
+    color: blue;
     font-size: 4.7em;
     /* margin-left: 30px; */
     margin: 0 auto;
@@ -1396,6 +1390,7 @@ footer #footerInner {
     letter-spacing: -1px;
     /* margin: 30px 90px 0 0; */
     margin: 0 auto;
+    margin-right: 40px;
     margin-top: 60px;
     padding: 0;
   }
@@ -1408,6 +1403,7 @@ footer #footerInner {
 /* About me */
 .Tline_1 {
   width: 270px;
+  height: 1.3px;
   margin: 0;
 }
 
@@ -1418,7 +1414,7 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  border: 1px solid red;
+  /* border: 1px solid red; */
   width: 100%;
   height: 580px;
   margin: 0 auto;
@@ -1482,7 +1478,7 @@ footer #footerInner {
 #About .about_me .meT {
   white-space: nowrap;
   left: 10px;
-  margin-top: 30px;
+  margin-top: 35px;
 }
 
 #About .about_me {
@@ -1502,5 +1498,135 @@ footer #footerInner {
   font-size: 0.8em;
 }
 /* About me END */
+
+/* work list start */
+.Tline_2 {
+  width: 270px;
+  height: 1.3px;
+  margin: 0;
+}
+
+#Ffitem {
+  width: 90%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+
+.work_list {
+  width: 90%;
+  /* border: 1px solid red; */
+}
+
+.Wlist_1,
+.Wlist_2,
+.Wlist_3,
+.Wlist_4,
+.Wlist_5 {
+  height: 960px;
+}
+
+.Wlist_5 {
+  margin-top: -140px;
+}
+
+.Wlist_1 .img_text,
+.Wlist_2 .img_text,
+.Wlist_3 .img_text,
+.Wlist_4 .img_text,
+.Wlist_5 .img_text {
+  display: contents;
+}
+
+/* 목차 */
+.Wlist_1 .Htext h5, .Wlist_2 .Htext h5, .Wlist_3 .Htext h5, .Wlist_4 .Htext h5, .Wlist_5 .Htext h5 {
+  margin: 20px 0 0 0px;
+}
+/* 웹 종류 설명 */
+.Wlist_1 .Htext span, .Wlist_2 .Htext span, .Wlist_3 .Htext span, .Wlist_4 .Htext span, .Wlist_5 .Htext span {
+  font-size: 12px;
+  padding-left: 0px;
+}
+/* 사이트 이름 */
+.Wlist_1 .Htext a, .Wlist_2 .Htext a, .Wlist_3 .Htext a, .Wlist_4 .Htext a, .Wlist_5 .Htext a {
+  font-size: 35px;
+  margin-left: 0px;
+}
+
+/* 목업 이미지 */
+.Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
+  width: 290px;
+  height: 238px;
+  margin: 30px 0 0 0px;
+}
+.Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
+  margin-left: 0;
+}
+
+/* 설명텍스트 */
+.work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
+  margin-top: 320px;
+  margin-left: 40px;
+  font-size: 15px;
+}
+
+.work_list .Wlist_1 .img_text p>u,
+.work_list .Wlist_2 .img_text p>u,
+.work_list .Wlist_3 .img_text p>u,
+.work_list .Wlist_4 .img_text p>u,
+.work_list .Wlist_5 .img_text p>u {
+  font-size: 15px;
+}
+
+.work_list .Wlist_1 .img_text p>span,
+.work_list .Wlist_2 .img_text p>span,
+.work_list .Wlist_3 .img_text p>span,
+.work_list .Wlist_4 .img_text p>span,
+.work_list .Wlist_5 .img_text p>span {
+  font-size: 13px;
+}
+
+/* 설명텍스트 위치조절 */
+.work_list .Wlist_1 .img_text p {
+  left: -1%;
+  width: 240px;
+}
+.work_list .Wlist_2 .img_text p {
+  left: 10px;
+  width: 200px;
+}
+.work_list .Wlist_3 .img_text p {
+  left: -10px;
+}
+.work_list .Wlist_4 .img_text p {
+  left: -30px;
+  width: 290px;
+}
+
+.btn_effect {
+  text-align: center;
+  margin-top: 350px;
+  margin-left: 20px;
+}
+
+.work_list .Wlist_3 .btn_effect,
+.work_list .Wlist_4 .btn_effect {
+  margin-top: 300px;
+}
+
+.work_list .Wlist_5 .btn_effect {
+    margin-top: 340px;
+    margin-left: 40px;
+}
+
+.work_list .Wlist_5 .img_text p {
+  left: -40px;
+  width: 330px;
+}
+
+.btn_effect a {
+  padding: 0;
+  margin-right: 30px;
+}
+/* work list END */
 
 }
