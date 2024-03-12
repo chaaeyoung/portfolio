@@ -392,19 +392,12 @@ ul, li {
 #About {
   width: 100%;
   height: 780px;
-  position: relative;
-  display: block;
 }
 
 #About .aboutInner {
   width: 1670px;
   height: 780px;
   margin: 0 auto;
-  position: relative;
-  /* display: flex; */
-  display: block;
-  /* justify-content: space-evenly; */
-  justify-content: space-between;
 }
 
 #About .About_Mtext {
@@ -526,9 +519,9 @@ ul, li {
 }
 
 
-/* ==========================================
+/* ==========================
         work list
-========================================== */
+============================= */
 /* 포폴 상단 라인 */
 .Tline_2 {
   width: 1670px;
@@ -1031,10 +1024,7 @@ footer #footerInner {
   }
   
   .Mtxt {
-    /* width: 90%; */
-    /* width: 100%; */
     height: 880px;
-    /* border: 1px solid red; */
   }
 
   #mainInner .Mtxt .maintitle .outText {
@@ -1071,12 +1061,13 @@ footer #footerInner {
 }
 
 #About {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 #About .aboutInner {
   width: 100%;
+  margin: 0 auto;
 }
 
 #About .About_Mtext {
@@ -1370,12 +1361,10 @@ footer #footerInner {
   .Mtxt {
     height: 500px;
     width: 100%;
-    /* border: 1px solid red; */
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blue;
+    color: red;
     font-size: 4.7em;
-    /* margin-left: 30px; */
     margin: 0 auto;
   }
 
@@ -1388,10 +1377,10 @@ footer #footerInner {
   #mainInner .Mtxt .subtext .intext  {
     font-size: 0.8em;
     letter-spacing: -1px;
-    /* margin: 30px 90px 0 0; */
     margin: 0 auto;
     margin-right: 40px;
-    margin-top: 60px;
+    margin-top: 160px;
+    /* margin-top: 60px; */
     padding: 0;
   }
 
@@ -1408,13 +1397,13 @@ footer #footerInner {
 }
 
 #About {
+  /* border: 1px solid red; */
   width: 100%;
   height: 580px;
   margin: 0 auto;
 }
 
 #About .aboutInner {
-  /* border: 1px solid red; */
   width: 100%;
   height: 580px;
   margin: 0 auto;
@@ -1501,19 +1490,21 @@ footer #footerInner {
 
 /* work list start */
 .Tline_2 {
+  position: absolute; /* 추가 */
   width: 270px;
   height: 1.3px;
-  margin: 0;
+  /* margin: 0; */
+  margin-left: -14.5%;
 }
 
 #Ffitem {
-  width: 90%;
-  border: 1px solid red;
+  width: 100%;
+  /* border: 1px solid red; */
   margin: 0 auto;
 }
 
 .work_list {
-  width: 90%;
+  width: 100%;
   /* border: 1px solid red; */
 }
 
@@ -1628,5 +1619,99 @@ footer #footerInner {
   margin-right: 30px;
 }
 /* work list END */
+
+/* ====================================
+    포트폴리오 사각 영역 (more view)
+  ==================================== */
+  .Tline_3 {
+    /* position: absolute; */
+    width: 270px;
+    height: 1.3px;
+    /* margin: 0; */
+    margin-left: -14.5%;
+    }
+
+  .Wlist_Rmenu {
+    width: 100%;
+    height: 1850px;
+    margin-top: 260px;
+  }
+  
+  .Wlist_Rmenu .Wlist_RmenuInner {
+    /* border: 1px solid red; */
+    height: 2000px;
+    width: 90%;
+  }
+  
+    .Wlist_R {
+      margin-top: -40px;
+      max-width: 350px;
+      max-height: 200px;
+      margin-bottom: 45px;
+    }
+
+    #Wlist_T,
+    #Wlist_B {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    #Wlist_B {
+      margin-top: 920px;
+    }
+  
+    .Wlist_Rmenu span {
+      margin: 10px 0 0 30px;
+      font-size: 35px;
+    }
+
+    .Wlist_Rmenu span>img {
+      width: 20px;
+      height: 20px;
+    }
+  
+    #Wlist_T .Wlist_R:nth-child(1),
+    #Wlist_T .Wlist_R:nth-child(4),
+    #Wlist_B .Wlist_R:nth-child(1),
+    #Wlist_B .Wlist_R:nth-child(4)
+     {
+      margin-right: 0;
+      margin-left: 0;
+    }
+  
+    .Wlist_R img {
+      width: 350px;
+      height: 200px;
+      object-fit: cover;
+      object-position: 0 0px;
+    }
+  
+    .Wlist_R h6 {
+      font-size: 12px;
+      line-height: 30px;
+      padding: 0 15px;
+      letter-spacing: -1px;
+    }
+  
+    .Wlist_R p {
+      font-size: 12px;
+      font-weight: bold;
+      margin-top: 20px;
+      word-break:break-all;
+      max-width: 100px;
+    }
+
+    .Wlist_R .circle {
+      position: relative;
+      height: 30px;
+      width: 30px;
+      top: 0;
+      left: 0;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 50%;
+      text-align: center;
+    }
+    /* 포트폴리오 사각 영역 (more view) END */
 
 }
