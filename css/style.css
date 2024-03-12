@@ -46,6 +46,15 @@ ul, li {
 /* ==========================================
            header(toggle, overlaymenu)
   ========================================== */
+.header {
+  width: 100%;
+  height: 80px;
+  background-color: #ebebe8;
+  box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.2);
+  position: fixed;
+  z-index: 99;
+  }
+
 /* toggle */
 #toggle {
   position: fixed;
@@ -292,7 +301,7 @@ ul, li {
 }
 
 #mainInner .Mtxt .maintitle .outText:first-child {
-  padding-top: 70px;
+  padding-top: 130px;
 }
 
 #mainInner .Mtxt .maintitle .outText:nth-child(1) .intext {
@@ -1375,7 +1384,7 @@ footer #footerInner {
     width: 100%;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
+    color: blueviolet;
     font-size: 4.5em;
     margin: 0 auto;
   }
@@ -1567,7 +1576,7 @@ footer #footerInner {
 .Wlist_1 .effect figure img, .Wlist_2 .effect figure img, .Wlist_3 .effect figure img, .Wlist_4 .effect figure img, .Wlist_5 .effect figure img {
   width: 290px;
   height: 238px;
-  margin: 30px 0 0 0px;
+  margin: 30px 0 0 20px;
 }
 .Wlist_1 figure, .Wlist_2 figure, .Wlist_3 figure, .Wlist_4 figure, .Wlist_5 figure {
   margin-left: 0;
@@ -1576,7 +1585,7 @@ footer #footerInner {
 /* 설명텍스트 */
 .work_list .Wlist_1 .img_text p, .work_list .Wlist_2 .img_text p, .work_list .Wlist_3 .img_text p, .work_list .Wlist_4 .img_text p, .work_list .Wlist_5 .img_text p {
   margin-top: 320px;
-  margin-left: 40px;
+  margin-left: 50px;
   font-size: 15px;
 }
 
@@ -1616,7 +1625,7 @@ footer #footerInner {
 .btn_effect {
   text-align: center;
   margin-top: 350px;
-  margin-left: 20px;
+  margin-left: 0px;
 }
 
 .work_list .Wlist_3 .btn_effect,
