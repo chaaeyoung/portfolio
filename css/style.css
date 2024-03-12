@@ -14,9 +14,9 @@
   cursor: url("../images/Ellipse2.png") 5 5, auto;
 }
 
-html, body {
-  /* overflow-x: hidden; */
-  }
+/* html, body {
+  overflow-x: hidden;
+  } */
 
 .blind {
   position: absolute;
@@ -48,7 +48,8 @@ ul, li {
 .header {
   width: 100%;
   height: 80px;
-  background-color: #ebebe8;
+  /* background-color: #ebebe8; */
+  background-color: #f1f1ef;
   box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.2);
   position: fixed;
   z-index: 99;
@@ -252,21 +253,21 @@ ul, li {
           main
 ===================== */
 
+
 #mainInner {
   width: 100%;
   height: 1080px;
-  position: relative;
-  display: block;
 }
 
 .Mtxt {
-  margin: 0 auto;
   /* width: 1670px; */
   width: 100%;
+  height: 1080px;
+  margin: 0 auto;
   position: relative;
   display: block;
   justify-content: center;
-  height: 1080px;
+  /* justify-content: flex-start; */
 }
 
 /* rotate ani */
@@ -766,7 +767,6 @@ ul.work_list {
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
-    /* width: 1670px; */
     width: 100%;
     height: 1180px;
     margin: 0 auto;
@@ -953,14 +953,12 @@ footer {
 }
 
 footer #footerInner {
-  /* width: 1670px; */
   width: 100%;
   height: 600px;
-  margin: 0 auto;
+  /* margin: 0 auto;
   position: relative;
-  /* display: flex; */
   display: block;
-  justify-content: center;
+  justify-content: center; */
   white-space: nowrap;
 }
 
@@ -1038,7 +1036,6 @@ footer #footerInner {
   transform: translate(0, 50px);
 }
 
-
 /* ======================
       타블렛 tablet
 ======================*/
@@ -1053,8 +1050,9 @@ footer #footerInner {
   }
 
   #mainInner {
-    /* width: 90%; */
+    width: 100%;
     height: 880px;
+    margin: 0 auto;
   }
   
   .Mtxt {
@@ -1342,7 +1340,6 @@ ul.work_list {
 footer {
   height: 560px;
   width: 100%;
-  margin: 0 auto;
 }
 
 footer #footerInner {
@@ -1351,7 +1348,6 @@ footer #footerInner {
 }
 
 .contact .contacttitle .Fintext {
-  /* margin-left: 20px; */
   margin-left: 360px;
   font-size: 7em;
 }
@@ -1403,6 +1399,7 @@ footer #footerInner {
   }
 
   #mainInner {
+    min-width: 300px;
     height: 500px;
     width: 100%;
     margin: 0 auto;
@@ -1411,17 +1408,18 @@ footer #footerInner {
   .Mtxt {
     height: 500px;
     width: 100%;
+    max-width: 500px;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blue;
+    color: red;
     font-size: 4.5em;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
     width: 230px;
     height: 1.3px;
-    margin-left: 50px;
+    margin-left: 20px;
   }
 
   #mainInner .Mtxt .subtext .intext  {
@@ -1688,7 +1686,7 @@ ul.work_list {
     }
 
   .Wlist_Rmenu {
-    width: 100%;
+    width: 90%;
     height: 1850px;
     margin-top: -180px;
   }
@@ -1773,10 +1771,8 @@ ul.work_list {
         footer
 =====================*/
 footer {
-  min-width: 300px;
   width: 100%;
   height: 400px;
-  margin: 0 auto;
 }
 
 footer #footerInner {
@@ -1785,7 +1781,7 @@ footer #footerInner {
 }
 
 .contact .contacttitle .Fintext {
-  margin-left: 380px;
+  margin-left: 480px;
   font-size: 3.1em;
   letter-spacing: -1.3px;
 }
@@ -1795,7 +1791,7 @@ footer #footerInner {
 }
 
 .contcatText {
-  margin: 40px 0 0 390px;
+  margin: 40px 0 0 483px;
 }
 
 .contact .contcatText a {
@@ -1804,12 +1800,12 @@ footer #footerInner {
 }
 
 #footerInner .Lcopylight {
-  margin: 5px 0 0 390px;
+  margin: 5px 0 0 480px;
   font-size: 0.7em;
 }
 
 #footerInner .Rcopylight {
-  margin: 50px 380px 0 0;
+  margin: 50px 480px 0 0;
   font-size: 0.9em;
 } 
 
