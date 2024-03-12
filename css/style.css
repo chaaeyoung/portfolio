@@ -1376,41 +1376,33 @@ footer #footerInner {
     border: 1px solid red;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
-    font-size: 5em;
+    color: blue;
+    font-size: 4.7em;
     /* margin-left: 30px; */
     margin: 0 auto;
-    letter-spacing: -1px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
-    width: 250px;
-    /* width: 250px; */
+    width: 230px;
     height: 1.3px;
     margin-left: 0px;
   }
 
-  #mainInner .Mtxt .maintitle .outText:first-child {
-    padding-top: 70px;
+  #mainInner .Mtxt .subtext .intext  {
+    font-size: 0.8em;
+    letter-spacing: -1px;
+    margin: 30px 90px 0 0;
+    padding: 0 0 0 0;
   }
 
-  /* rotate ani */
   #mainInner .Mtxt h1.logo img {
   display: none;
-  width: 103px;
-  height: 103px;
-}
-
-#mainInner .Mtxt .subtext .intext  {
-  font-size: 0.8em;
-  margin: 30px 110px 0 0;
-  padding: 0 0 0 0;
 }
 /* main END */
 
 /* About me */
 .Tline_1 {
-  width: 470px;
+  width: 270px;
   margin: 0;
 }
 
@@ -1444,9 +1436,9 @@ footer #footerInner {
 }
 
 #About .about_me img.faceM {
-  /* border: 1px solid red; */
   display: block;
   margin-top: -150px;
+  margin-left: 30px;
   width: 160px;
   height: 360px;
   object-fit: cover;
