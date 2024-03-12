@@ -1042,13 +1042,13 @@ footer #footerInner {
 
   #mainInner .Mtxt .maintitle .outText {
     font-size: 10.7em;
-    margin-left: 20px;
+    margin-left: 60px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
     width: 550px;
     height: 2px;
-    margin-left: 25px;
+    margin-left: 65px;
   }
 
   /* rotate ani */
@@ -1056,14 +1056,14 @@ footer #footerInner {
     width: 203px;
     height: 203px;
     margin-left: 600px;
-    margin-top: 20px;
+    margin-top: 100px;
   }
   
   #mainInner .Mtxt .subtext .intext {
       text-align: right;
       font-size: 1.2em;
       font-weight: 500;
-      padding: 50px 800px 0 0px;
+      padding: 40px 860px 0 0px;
       letter-spacing: -1px;
     }
   /* main END */
