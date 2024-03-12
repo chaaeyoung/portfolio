@@ -1058,6 +1058,7 @@ footer #footerInner {
   }
 
   #mainInner .Mtxt .maintitle .outText {
+    overflow-x: hidden;
     font-size: 10.7em;
     margin-left: 60px;
   }
@@ -1405,10 +1406,10 @@ footer #footerInner {
   .Mtxt {
     height: 500px;
     width: 100%;
-    max-width: 500px;
+    max-width: 400px;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
+    /* color: red; */
     font-size: 4.5em;
     margin-left: 20px;
   }
@@ -1631,12 +1632,11 @@ ul.work_list {
 
 /* 설명텍스트 위치조절 */
 .work_list .Wlist_1 .img_text p {
-  /* left: -1%; */
   left: 2%;
   width: 240px;
 }
 .work_list .Wlist_2 .img_text p {
-  left: 10px;
+  left: 35px;
   width: 200px;
 }
 .work_list .Wlist_3 .img_text p {
@@ -1685,7 +1685,7 @@ ul.work_list {
 
   .Wlist_Rmenu {
     width: 90%;
-    height: 1850px;
+    height: 1780px;
     margin-top: -180px;
   }
   
