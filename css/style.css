@@ -1376,17 +1376,18 @@ footer #footerInner {
     border: 1px solid red;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blue;
-    font-size: 6em;
-    margin-left: 30px;
+    color: red;
+    font-size: 5em;
+    /* margin-left: 30px; */
+    margin: 0 auto;
     letter-spacing: -1px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
-    width: 350px;
+    width: 250px;
     /* width: 250px; */
     height: 1.3px;
-    margin-left: 30px;
+    margin-left: 0px;
   }
 
   #mainInner .Mtxt .maintitle .outText:first-child {
@@ -1414,16 +1415,14 @@ footer #footerInner {
 }
 
 #About {
-  width: 90%;
+  width: 100%;
   margin: 0 auto;
 }
 
 #About .aboutInner {
   border: 1px solid red;
   width: 100%;
-  display: flex;
-  /* justify-content: start; */
-  justify-content: center;
+  margin: 0 auto;
 }
 
 #About .About_Mtext {
@@ -1456,7 +1455,7 @@ footer #footerInner {
 /* 이름 */
 #About .about_me a {
   margin: -155px 0 0 200px;
-  font-size: 1.2em;
+  font-size: 1em;
   letter-spacing: -1px;
 }
 
