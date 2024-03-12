@@ -1389,7 +1389,7 @@ footer #footerInner {
     width: 100%;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
+    color: blue;
     font-size: 4.5em;
     margin: 0 auto;
   }
@@ -1788,7 +1788,7 @@ footer #footerInner {
 }
 
 #footerInner .Rcopylight {
-  margin: 50px 50px 0 0;
+  margin: 50px 20px 0 0;
   font-size: 0.9em;
 } 
 
