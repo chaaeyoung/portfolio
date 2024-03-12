@@ -467,15 +467,16 @@ ul, li {
   font-size: 1em;
 }
 
-.about_me img.faceP {
+#About .about_me img.faceP {
   margin: -40px 0 0 180px;
   width: 350px;
   height: 350px;
 }
 
-.about_me img.faceM {
+#About .about_me img.faceM {
   display: none;
 }
+
 
 #About .about_me .tools {
   margin-top: 70px;
@@ -1068,83 +1069,83 @@ footer #footerInner {
     }
   /* main END */
 
-  /* About me start */
-  .Tline_1 {
-    width: 870px;
-  }
+/* About me start */
+.Tline_1 {
+  width: 870px;
+}
 
-  #About {
-    width: 90%;
-    margin: 0 auto;
-  }
+#About {
+  width: 90%;
+  margin: 0 auto;
+}
 
-  #About .aboutInner {
-    /* border: 1px solid red; */
-    width: 100%;
-  }
+#About .aboutInner {
+  /* border: 1px solid red; */
+  width: 100%;
+}
 
-  #About .About_Mtext {
-    margin-top: 40px;
-  }
-  
-  #About h4 {
-    margin: 0 0 0 60px;
-  }
-  
-  #About .About_Mtext p {
-    margin: 10px 0 0 60px;
-  }
+#About .About_Mtext {
+  margin-top: 40px;
+}
 
-  #About .about_me img.faceP {
-    margin: -80px 0 0 80px;
-    width: 300px;
-    height: 300px;
-  }
-  
-  #About .about_me a {
-    margin: -50px 0 0 450px;
-    font-size: 1.3em;
-  }
-  
-  #About .about_me .tools {
-    margin-top: -30px;
-    margin-left: 450px;
-  }
-  
-  #About .about_me .tools p {
-    font-size: 1.4em;
-  }
-  
-  #About .about_me .tools ul li img {
-    height: 30px;
-    width: 30px;
-  }
-  
-  #About .about_me .skill {
-    margin-top: 100px;
-    margin-left: 450px;
-  }
-  
-  #About .about_me .skill ul li img {
-    height: 30px;
-    width: 30px;
-  }
-  
-  #About .about_me .skill p {
-    font-size: 1.4em;
-  }
-  
-  #About .about_me .meT {
-    margin-top: 180px;
-    left: 70px;
-  }
-  
-  #About .about_me .meT p {
-    font-size: 1.3em;
-  }
-  /* About me END */
+#About h4 {
+  margin: 0 0 0 60px;
+}
 
-  /* work list start */
+#About .About_Mtext p {
+  margin: 10px 0 0 60px;
+}
+
+#About .about_me img.faceP {
+  margin: -80px 0 0 80px;
+  width: 300px;
+  height: 300px;
+}
+
+#About .about_me a {
+  margin: -50px 0 0 450px;
+  font-size: 1.3em;
+}
+
+#About .about_me .tools {
+  margin-top: -30px;
+  margin-left: 450px;
+}
+
+#About .about_me .tools p {
+  font-size: 1.4em;
+}
+
+#About .about_me .tools ul li img {
+  height: 30px;
+  width: 30px;
+}
+
+#About .about_me .skill {
+  margin-top: 100px;
+  margin-left: 450px;
+}
+
+#About .about_me .skill ul li img {
+  height: 30px;
+  width: 30px;
+}
+
+#About .about_me .skill p {
+  font-size: 1.4em;
+}
+
+#About .about_me .meT {
+  margin-top: 180px;
+  left: 70px;
+}
+
+#About .about_me .meT p {
+  font-size: 1.3em;
+}
+/* About me END */
+
+/* work list start */
 .Tline_2 {
   width: 870px;
 }
@@ -1365,26 +1366,31 @@ footer #footerInner {
 
   #mainInner {
     height: 500px;
+    /* width: 90%; */
+    margin: 0 auto;
   }
 
   .Mtxt {
     height: 500px;
+    width: 100%;
+    border: 1px solid red;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blue;
-    font-size: 5em;
+    color: red;
+    font-size: 7em;
     margin-left: 30px;
     letter-spacing: -1px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
-    width: 250px;
+    width: 350px;
+    /* width: 250px; */
     height: 1.3px;
     margin-left: 30px;
   }
 
   #mainInner .Mtxt .maintitle .outText:first-child {
-    padding-top: 90px;
+    padding-top: 70px;
   }
 
   /* rotate ani */
@@ -1392,8 +1398,6 @@ footer #footerInner {
   display: none;
   width: 103px;
   height: 103px;
-  margin-left: 50%;
-  margin-top: 10%;
 }
 
 #mainInner .Mtxt .subtext .intext  {
@@ -1402,5 +1406,100 @@ footer #footerInner {
   padding: 0 0 0 0;
 }
 /* main END */
+
+/* About me */
+.Tline_1 {
+  width: 470px;
+  margin: 0;
+}
+
+#About {
+  width: 90%;
+  margin: 0 auto;
+}
+
+#About .aboutInner {
+  border: 1px solid red;
+  width: 100%;
+  display: flex;
+  justify-content: start;
+}
+
+#About .About_Mtext {
+  margin-top: 40px;
+}
+
+#About h4 {
+  font-size: 35px;
+  margin: -20px 0 0 30px;
+}
+
+#About .About_Mtext p {
+  font-size: 0.8em;
+  margin: 5px 0 0 30px;
+}
+
+#About .about_me img.faceP {
+  display: none;
+}
+
+#About .about_me img.faceM {
+  /* border: 1px solid red; */
+  display: block;
+  margin-top: -150px;
+  width: 160px;
+  height: 360px;
+  object-fit: cover;
+}
+
+/* 이름 */
+#About .about_me a {
+  margin: -155px 0 0 200px;
+  font-size: 1.2em;
+  letter-spacing: -1px;
+}
+
+#About .about_me .tools {
+  width: 130px;
+  font-size: 0.7em;
+  margin-top: -140px;
+  margin-left: 200px;
+}
+#About .about_me .tools ul li img {
+  height: 20px;
+  width: 20px;
+}
+#About .about_me .skill {
+  font-size: 0.7em;
+  margin-top: 0px;
+  margin-left: 200px;
+}
+#About .about_me .skill ul li img {
+  height: 20px;
+  width: 20px;
+}
+
+#About .about_me .meT {
+  margin-right: 172px;
+  margin-top: 60px;
+}
+
+#About .about_me {
+  width: 100%;
+  max-width: 760px;
+}
+
+#About .about_me .meT p {
+  font-size: 0.9em;
+}
+
+#About .about_me .meT ul li>p {
+  font-size: 0.6em;
+}
+
+#About .about_me .meT ul li>small {
+  font-size: 0.8em;
+}
+/* About me END */
 
 }
