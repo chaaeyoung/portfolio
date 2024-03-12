@@ -37,7 +37,7 @@ $(function () {
         const $counters = $(".scroll_on");
 
         // 노출 비율(%)과 애니메이션 반복 여부(true/false)를 설정합니다.
-        const exposurePercentage = 60; // ex) 스크롤 했을 때 $counters 컨텐츠가 화면에 100% 노출되면 숫자가 올라갑니다.
+        const exposurePercentage = 40; // ex) 스크롤 했을 때 $counters 컨텐츠가 화면에 100% 노출되면 숫자가 올라갑니다.
         // 상단의 60 원래 80이엇음
         const loop = true; // 애니메이션 반복 여부를 설정합니다. (true로 설정할 경우, 요소가 화면에서 사라질 때 다시 숨겨집니다.)
 
