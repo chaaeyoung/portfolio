@@ -1366,7 +1366,7 @@ footer #footerInner {
 
   #mainInner {
     height: 500px;
-    /* width: 90%; */
+    width: 90%;
     margin: 0 auto;
   }
 
@@ -1376,8 +1376,8 @@ footer #footerInner {
     border: 1px solid red;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
-    font-size: 7em;
+    color: blue;
+    font-size: 6em;
     margin-left: 30px;
     letter-spacing: -1px;
   }
