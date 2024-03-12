@@ -768,7 +768,7 @@ ul.work_list {
   .Wlist_Rmenu .Wlist_RmenuInner {
     /* width: 1670px; */
     width: 100%;
-    height: 1150px;
+    height: 1180px;
     margin: 0 auto;
     position: relative;
     display: flex;
@@ -1362,7 +1362,6 @@ footer #footerInner {
 
 /* 이메일 / 전화번호 박스*/
 .contcatText {
-  /* margin: 40px 0 0 30px; */
   margin: 40px 0 0 370px;
 }
 
@@ -1414,14 +1413,15 @@ footer #footerInner {
     width: 100%;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: red;
+    color: blue;
     font-size: 4.5em;
+    margin-left: 50px;
   }
 
   #mainInner .Mtxt .lineani .underLine {
     width: 230px;
     height: 1.3px;
-    margin-left: 60px;
+    margin-left: 50px;
   }
 
   #mainInner .Mtxt .subtext .intext  {
@@ -1448,9 +1448,10 @@ footer #footerInner {
 
 /* About me */
 .Tline_1 {
-  width: 270px;
+  width: 340px;
   height: 1.3px;
   margin: 0;
+  position: relative;
 }
 
 #About {
@@ -1471,12 +1472,12 @@ footer #footerInner {
 
 #About h4 {
   font-size: 35px;
-  margin: -20px 0 0 30px;
+  margin: -20px 0 0 10px;
 }
 
 #About .About_Mtext p {
   font-size: 0.8em;
-  margin: 5px 0 0 30px;
+  margin: 5px 0 0 10px;
 }
 
 #About .about_me img.faceP {
@@ -1486,7 +1487,7 @@ footer #footerInner {
 #About .about_me img.faceM {
   display: block;
   margin-top: -150px;
-  margin-left: 30px;
+  margin-left: 10px;
   width: 160px;
   height: 360px;
   object-fit: cover;
@@ -1523,7 +1524,7 @@ footer #footerInner {
 
 #About .about_me .meT {
   white-space: nowrap;
-  left: 10px;
+  left: 30px;
   margin-top: 35px;
 }
 
@@ -1550,9 +1551,7 @@ footer #footerInner {
   width: 340px;
   height: 1.3px;
   margin: 0;
-  /* position: absolute; */
   position: relative;
-  /* margin-left: -14.5%; */
 }
 
 #Ffitem {
@@ -1560,7 +1559,7 @@ footer #footerInner {
   margin: 0 auto;
 }
 
-.work_list {
+ul.work_list {
   width: 100%;
 }
 
@@ -1569,11 +1568,14 @@ footer #footerInner {
 .Wlist_3,
 .Wlist_4,
 .Wlist_5 {
-  height: 960px;
+  height: 850px;
 }
 
-.Wlist_5 {
-  margin-top: -140px;
+.Wlist_3 {
+  height: 780px;
+}
+.Wlist_4 {
+  height: 800px;
 }
 
 .Wlist_1 .img_text,
@@ -1634,7 +1636,8 @@ footer #footerInner {
 
 /* 설명텍스트 위치조절 */
 .work_list .Wlist_1 .img_text p {
-  left: -1%;
+  /* left: -1%; */
+  left: 2%;
   width: 240px;
 }
 .work_list .Wlist_2 .img_text p {
@@ -1645,14 +1648,14 @@ footer #footerInner {
   left: -10px;
 }
 .work_list .Wlist_4 .img_text p {
-  left: -30px;
+  left: -10px;
   width: 290px;
 }
 
 .btn_effect {
   text-align: center;
   margin-top: 350px;
-  margin-left: 0px;
+  margin-left: 20px;
 }
 
 .work_list .Wlist_3 .btn_effect,
@@ -1662,11 +1665,10 @@ footer #footerInner {
 
 .work_list .Wlist_5 .btn_effect {
     margin-top: 340px;
-    margin-left: 40px;
 }
 
 .work_list .Wlist_5 .img_text p {
-  left: -40px;
+  left: -45px;
   width: 330px;
 }
 
@@ -1686,9 +1688,9 @@ footer #footerInner {
     }
 
   .Wlist_Rmenu {
-    width: 90%;
+    width: 100%;
     height: 1850px;
-    margin-top: 260px;
+    margin-top: -180px;
   }
   
   .Wlist_Rmenu .Wlist_RmenuInner {
@@ -1780,13 +1782,10 @@ footer {
 footer #footerInner {
   width: 100%;
   height: 400px;
-  display: flex;
-  justify-content: flex-start;
 }
 
 .contact .contacttitle .Fintext {
-  /* margin-left: 160px; */
-  /* margin-left: 30px; */
+  margin-left: 380px;
   font-size: 3.1em;
   letter-spacing: -1.3px;
 }
@@ -1796,8 +1795,7 @@ footer #footerInner {
 }
 
 .contcatText {
-  /* margin: 40px 0 0 40px; */
-  /* margin: 30px 0 0 165px; */
+  margin: 40px 0 0 390px;
 }
 
 .contact .contcatText a {
@@ -1806,14 +1804,12 @@ footer #footerInner {
 }
 
 #footerInner .Lcopylight {
-  /* margin: 0px 0 0 39px; */
-  /* margin: 0px 0 0 165px; */
+  margin: 5px 0 0 390px;
   font-size: 0.7em;
 }
 
 #footerInner .Rcopylight {
-  justify-content: flex-end;
-  /* margin: 50px 200px 0 0; */
+  margin: 50px 380px 0 0;
   font-size: 0.9em;
 } 
 
