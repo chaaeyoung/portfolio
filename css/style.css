@@ -401,8 +401,10 @@ ul, li {
   height: 780px;
   margin: 0 auto;
   position: relative;
-  display: flex;
-  justify-content: space-evenly;
+  /* display: flex; */
+  display: block;
+  /* justify-content: space-evenly; */
+  justify-content: space-between;
 }
 
 #About .About_Mtext {
@@ -1080,7 +1082,6 @@ footer #footerInner {
 }
 
 #About .aboutInner {
-  /* border: 1px solid red; */
   width: 100%;
 }
 
@@ -1108,6 +1109,7 @@ footer #footerInner {
 }
 
 #About .about_me .tools {
+  white-space: nowrap;
   margin-top: -30px;
   margin-left: 450px;
 }
@@ -1122,6 +1124,7 @@ footer #footerInner {
 }
 
 #About .about_me .skill {
+  white-space: nowrap;
   margin-top: 100px;
   margin-left: 450px;
 }
@@ -1376,7 +1379,7 @@ footer #footerInner {
     border: 1px solid red;
   }
   #mainInner .Mtxt .maintitle .outText {
-    color: blue;
+    color: blueviolet;
     font-size: 4.7em;
     /* margin-left: 30px; */
     margin: 0 auto;
@@ -1391,8 +1394,10 @@ footer #footerInner {
   #mainInner .Mtxt .subtext .intext  {
     font-size: 0.8em;
     letter-spacing: -1px;
-    margin: 30px 90px 0 0;
-    padding: 0 0 0 0;
+    /* margin: 30px 90px 0 0; */
+    margin: 0 auto;
+    margin-top: 60px;
+    padding: 0;
   }
 
   #mainInner .Mtxt h1.logo img {
@@ -1408,12 +1413,14 @@ footer #footerInner {
 
 #About {
   width: 100%;
+  height: 580px;
   margin: 0 auto;
 }
 
 #About .aboutInner {
   border: 1px solid red;
   width: 100%;
+  height: 580px;
   margin: 0 auto;
 }
 
@@ -1452,9 +1459,10 @@ footer #footerInner {
 }
 
 #About .about_me .tools {
+  white-space: normal;
   width: 130px;
   font-size: 0.7em;
-  margin-top: -140px;
+  margin-top: -160px;
   margin-left: 200px;
 }
 #About .about_me .tools ul li img {
@@ -1463,7 +1471,7 @@ footer #footerInner {
 }
 #About .about_me .skill {
   font-size: 0.7em;
-  margin-top: 0px;
+  margin-top: -20px;
   margin-left: 200px;
 }
 #About .about_me .skill ul li img {
@@ -1472,13 +1480,14 @@ footer #footerInner {
 }
 
 #About .about_me .meT {
-  margin-right: 172px;
-  margin-top: 60px;
+  white-space: nowrap;
+  left: 10px;
+  margin-top: 30px;
 }
 
 #About .about_me {
   width: 100%;
-  max-width: 760px;
+
 }
 
 #About .about_me .meT p {
